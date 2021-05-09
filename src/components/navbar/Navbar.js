@@ -1,10 +1,17 @@
 import React from 'react'
+import { NavbarStyles, OptionsStyles } from './NavbarStyles';
 
 const Navbar = () => {
     return (
-        <div>
-            <h1>Navbar</h1>
-        </div>
+        <NavbarStyles>
+            <p>Logo</p>
+            <OptionsStyles>
+                <p>Quienes somos</p>
+                <p>Herbalife</p>
+                <p>servicios</p>
+                <p>contactanos</p>
+            </OptionsStyles>
+        </NavbarStyles>
     )
 }
 
