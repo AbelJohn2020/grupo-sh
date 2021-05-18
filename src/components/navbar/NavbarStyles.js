@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import '../UI/styles.css'
 
 export const NavbarStyles = styled.div`
     width: 100%;

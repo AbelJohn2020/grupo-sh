@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { NavbarStyles, OptionsStyles } from './NavbarStyles';
 
 const Navbar = () => {
@@ -6,10 +7,18 @@ const Navbar = () => {
         <NavbarStyles>
             <p>Logo</p>
             <OptionsStyles>
-                <p>Quienes somos</p>
-                <p>Herbalife</p>
-                <p>servicios</p>
-                <p>contactanos</p>
+                <Link to="/nosotros" className="AboutUs">
+                    nosotros
+                </Link>
+                <Link to="/servicios" className="AboutUs">
+                    servicios
+                </Link>
+                <Link to="/herbalife" className="AboutUs">
+                    herbalife
+                </Link>
+                <Link to="/contactanos" className="AboutUs">
+                    contactanos
+                </Link>
             </OptionsStyles>
         </NavbarStyles>
     )
