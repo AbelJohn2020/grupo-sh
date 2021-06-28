@@ -1,0 +1,17 @@
+:root {
+    --green-color: #78be20;
+    --hover-green-color: #aae460;
+
+    /*CAMBIAR DE COLOR*/
+    --yellow-color: #ffd166;
+    --red-color: #ef476f;
+    --midnight-color: #073b4c;
+    --light-color: #f8f9fa;
+    --white-color: #ffffff;
+    --gray-color: #888888;
+    --black-color: #262626;
+
+    /* --body-font: "Montserrat";
+    --headings-font: "Piazzolla";
+    --system-font: "SF Pro Display", "Roboto"; */
+  }
