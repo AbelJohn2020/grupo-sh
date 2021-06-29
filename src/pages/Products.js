@@ -1,23 +1,17 @@
 import React from 'react';
-import ProductsHer from '../components/products/ProductsHer';
+import HerbalifeFooter from '../components/HerbalifeFooter/HerbalifeFooter';
+import HerbalifeNavbar from '../components/HerbalifeNavbar/HerbalifeNavbar';
+import ProductsComponent from '../components/ProductsComponent/ProductsComponent';
+import { HerbalifeProductsTitle } from '../components/Ttile/Title';
+import "../components/UI/styles.css"
 
 const Products = () => {
     return (
-        <div>
-            <div className="title">
-                <h1 className="titleName">productos</h1>
-            </div>
-            <div className="products">
-                <div className = "subtitle">
-                    <h1 className="subtitleName">nutricion de calidad</h1>
-                </div>
-                <div className = "secondSubtitle">
-                    <p className="secondSubtitleName">Productos de calidad basados en la ciencia. Productos que ayudan a que tu cuerpo obtenga los nutrientes que necesita.</p>
-                </div>
-                <div>
-                    <ProductsHer />
-                </div>
-            </div>
+        <div className="coverProducts">
+            <HerbalifeNavbar />
+            <HerbalifeProductsTitle name="productos"/>
+            <ProductsComponent />
+            <HerbalifeFooter />
         </div>
     )
 }

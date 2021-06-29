@@ -6,8 +6,8 @@ import { Colors } from "../UI/Colors";
 export const MainCard = styled.div`
     width: 100%;
     height: 100%;
-    margin: 0 0 16px 0;
-    padding: 16px;
+    margin: 0;
+    padding: 8px 16px;
     box-sizing: border-box;
 `;
 
@@ -21,7 +21,7 @@ export const CardImage = styled.div`
 `;
 
 export const Button = styled.div`
-    margin: 20px 0 0 0;
+    margin: 12px 0 0 0;
     padding: 12px 28px;
     width: 100%;
     box-sizing: border-box;
@@ -32,7 +32,7 @@ export const Button = styled.div`
     font-weight: bold;
     font-style: normal;
     letter-spacing: 0.4px;
-    font-size: 18px;
+    font-size: 16px;
     background: ${Colors.greenButton};
     color: ${Colors.white};
     display: flex;

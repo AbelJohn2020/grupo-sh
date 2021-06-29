@@ -15,3 +15,7 @@
     --headings-font: "Piazzolla";
     --system-font: "SF Pro Display", "Roboto"; */
   }
+
+  * {
+    margin: 0;
+  }
