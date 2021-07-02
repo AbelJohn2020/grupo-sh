@@ -1,9 +1,17 @@
-import React from 'react'
+import React from 'react';
+import BookYourMedicalApointment from '../components/BookYourMedicalAppointment/BookYourMedicalApointment';
+import NavbarServices from '../components/NavbarServices/NavbarServices';
+import OurJobServices from '../components/OurJobServices/OurJobServices';
+import WelcomeServices from '../components/WelcomeServices/WelcomeServices';
+import "../components/UI/styles.css"
 
 const ServicesSH = () => {
     return (
-        <div>
-            <h1>servicios sh</h1>
+        <div className="servicesSH">
+            <NavbarServices />
+            <WelcomeServices />
+            <OurJobServices />
+            <BookYourMedicalApointment />
         </div>
     )
 }

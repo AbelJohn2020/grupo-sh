@@ -125,6 +125,7 @@ export const SocialNetworksLinks = styled.a`
     padding: 8px 8px 4px 8px;
     margin: 0 4px 0 0;
     color: ${Colors.subtitle};
+    outline: none;
 
     &:visited {
         color: ${Colors.subtitle};

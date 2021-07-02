@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import CoverContactUs from "../components/CoverContactUs/CoverContactUs";
 
 const ContactUs = () => {
     return (
         <div>
-            <h1>contactanos</h1>
+            <CoverContactUs />
         </div>
     )
 }
 
-export default ContactUs
+export default ContactUs;

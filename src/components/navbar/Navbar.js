@@ -1,14 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { NavbarStyles, OptionsStyles } from './NavbarStyles';
+import GeneralLogo from "../../images/logo-sh/generalLogo.jpg"
 
 const Navbar = () => {
     return (
         <NavbarStyles>
-            <p>Logo</p>
+            <img src={GeneralLogo} alt="GRUPO SH logo" />
             <OptionsStyles>
-                <Link to="/nosotros" className="AboutUs">
-                    nosotros
+                <Link to="/" className="AboutUs">
+                    inicio
                 </Link>
                 <Link to="/servicios" className="AboutUs">
                     servicios
@@ -18,6 +19,9 @@ const Navbar = () => {
                 </Link>
                 <Link to="/contactanos" className="AboutUs">
                     contactanos
+                </Link>
+                <Link to="/nosotros" className="AboutUs">
+                    nosotros
                 </Link>
             </OptionsStyles>
         </NavbarStyles>

@@ -15,9 +15,10 @@ export const CardImage = styled.div`
     width: 100%;
     margin: 0;
     padding: 0;
-    img {
-        width:100%;
-    }
+`;
+
+export const ImageOfProducts = styled.img`
+    width: 100%;
 `;
 
 export const Button = styled.div`

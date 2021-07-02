@@ -12,3 +12,10 @@ export const HerbalifeNavbarStyle = styled.div`
         height: 100%;
     }
 `;
+
+export const ExternalHerbalifeNavbarStyle = styled.div`
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 0 52px 0;
+    background: ${Colors.lightLightGray};
+`;

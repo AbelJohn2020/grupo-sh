@@ -3,21 +3,27 @@ import { protein } from '../../data-images/products-images';
 import HerbalifeFooter from '../../HerbalifeFooter/HerbalifeFooter';
 import HerbalifeNavbar from '../../HerbalifeNavbar/HerbalifeNavbar';
 import ProductsInProducts from '../../ProductsInProducts/ProductsInProducts';
+import { HerbalifeProductTitle } from '../../Ttile/Title';
+import { AllProductsBySector, BackgroundStyles, Body, OneProductOfTheSector } from '../FormOne/FormOneStyles';
 
 const Protein = () => {
     return (
-        <div>
+        <Body>
             <HerbalifeNavbar />
-            <h1>proteína</h1>
-            {
-                protein.map( ({ id, product, name, code }) => (
-                    <div key={id}>
-                        <ProductsInProducts product={product} name={name} code={code} />
-                    </div>
-                ))
-            }
+            <BackgroundStyles>
+                <HerbalifeProductTitle name="proteína"/>
+                <AllProductsBySector>
+                    {
+                        protein.map( ({id, product, name, code}) => (
+                            <OneProductOfTheSector key={id}>
+                                <ProductsInProducts product={product} name={name} code={code} />
+                            </OneProductOfTheSector>
+                        ))
+                    }
+                </AllProductsBySector>
+            </BackgroundStyles>
             <HerbalifeFooter />
-        </div>
+        </Body>
     )
 }
 

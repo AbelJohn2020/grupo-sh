@@ -3,21 +3,27 @@ import { skin } from '../../data-images/products-images';
 import HerbalifeFooter from '../../HerbalifeFooter/HerbalifeFooter';
 import HerbalifeNavbar from '../../HerbalifeNavbar/HerbalifeNavbar';
 import ProductsInProducts from '../../ProductsInProducts/ProductsInProducts';
+import { HerbalifeProductTitle } from '../../Ttile/Title';
+import { AllProductsBySector, BackgroundStyles, Body, OneProductOfTheSector } from '../FormOne/FormOneStyles';
 
 const Skin = () => {
     return (
-        <div>
+        <Body>
             <HerbalifeNavbar />
-            <h1>herbalife skin</h1>
-            {
-                skin.map( ({ id, product, name, code }) => (
-                    <div key={id}>
-                        <ProductsInProducts product={product} name={name} code={code} />
-                    </div>
-                ))
-            }
+            <BackgroundStyles>
+                <HerbalifeProductTitle name="herbalife skin"/>
+                <AllProductsBySector>
+                    {
+                        skin.map( ({id, product, name, code}) => (
+                            <OneProductOfTheSector key={id}>
+                                <ProductsInProducts product={product} name={name} code={code} />
+                            </OneProductOfTheSector>
+                        ))
+                    }
+                </AllProductsBySector>
+            </BackgroundStyles>
             <HerbalifeFooter />
-        </div>
+        </Body>
     )
 }
 

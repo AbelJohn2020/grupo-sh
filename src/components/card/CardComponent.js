@@ -1,11 +1,11 @@
 import React from 'react';
-import { Button, CardImage, MainCard } from './CardComponentStyle';
+import { Button, CardImage, ImageOfProducts, MainCard } from './CardComponentStyle';
 
 const CardComponent = ({product, name}) => {
     return (
         <MainCard>
             <CardImage>
-                <img src={product} alt={name} />
+                <ImageOfProducts src={product} alt={name} />
             </CardImage>
             <Button>{name}</Button>
         </MainCard>
