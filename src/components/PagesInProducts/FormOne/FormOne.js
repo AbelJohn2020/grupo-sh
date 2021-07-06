@@ -1,5 +1,5 @@
 import React from 'react';
-import { form } from '../../data-images/products-images';
+import { form } from '../../data-images/form-herb';
 import HerbalifeFooter from '../../HerbalifeFooter/HerbalifeFooter';
 import HerbalifeNavbar from '../../HerbalifeNavbar/HerbalifeNavbar';
 import ProductsInProducts from '../../ProductsInProducts/ProductsInProducts';

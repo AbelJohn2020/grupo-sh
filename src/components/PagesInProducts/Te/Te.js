@@ -1,5 +1,5 @@
 import React from 'react';
-import { te } from '../../data-images/products-images';
+import { te } from '../../data-images/te-her';
 import HerbalifeFooter from '../../HerbalifeFooter/HerbalifeFooter';
 import HerbalifeNavbar from '../../HerbalifeNavbar/HerbalifeNavbar';
 import ProductsInProducts from '../../ProductsInProducts/ProductsInProducts';
@@ -11,6 +11,7 @@ const Te = () => {
     return (
         <Body>
             <HerbalifeNavbar />
+            {console.log(te)}
             <BackgroundStyles>
                 <HerbalifeProductsSubtitle name="té concentrado de hierbas"/>
                 <AllProductsBySector>

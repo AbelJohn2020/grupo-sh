@@ -1,5 +1,5 @@
 import React from 'react';
-import { complement } from '../../data-images/products-images';
+import { complement } from '../../data-images/complementos';
 import HerbalifeFooter from '../../HerbalifeFooter/HerbalifeFooter';
 import HerbalifeNavbar from '../../HerbalifeNavbar/HerbalifeNavbar';
 import ProductsInProducts from '../../ProductsInProducts/ProductsInProducts';

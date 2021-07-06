@@ -1,5 +1,5 @@
 import React from 'react';
-import { sport } from '../../data-images/products-images';
+import { sport } from '../../data-images/sports';
 import HerbalifeFooter from '../../HerbalifeFooter/HerbalifeFooter';
 import HerbalifeNavbar from '../../HerbalifeNavbar/HerbalifeNavbar';
 import ProductsInProducts from '../../ProductsInProducts/ProductsInProducts';

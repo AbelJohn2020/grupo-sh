@@ -1,5 +1,5 @@
 import React from 'react';
-import { aloeCon } from '../../data-images/products-images';
+import { aloeCon } from '../../data-images/aloe-con';
 import HerbalifeFooter from '../../HerbalifeFooter/HerbalifeFooter';
 import HerbalifeNavbar from '../../HerbalifeNavbar/HerbalifeNavbar';
 import ProductsInProducts from '../../ProductsInProducts/ProductsInProducts';
