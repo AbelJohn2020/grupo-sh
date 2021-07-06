@@ -104,7 +104,7 @@ import aloeSix from "../../images/herbal-aloe/2566_herbal_aloe_jabon_de_tocador_
 
 export const products = [
     {id: 0, product: productOne, name: "batido nutricional fórmula 1", link: "/herbalife/batido%20nutricional%20fórmula1"},
-    {id: 1, product: productTwo, name: "té concentrado de hierbas", link: "/herbalife/té%20concentrado%20de%20hierbas"},
+    {id: 1, product: productTwo, name: "té concentrado de hierbas", link: "/herbalife/te%20concentrado%20de%20hierbas"},
     {id: 2, product: productThree, name: "herbal aloe concentrado", link: "/herbalife/herbal%20aloe%20concentrado"},
     {id: 3, product: productFour, name: "proteína", link: "/herbalife/proteína"},
     {id: 4, product: productFive, name: "complementos", link: "/herbalife/complementos"},
