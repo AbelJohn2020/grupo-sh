@@ -39,3 +39,47 @@
     box-sizing: border-box;
     background: #eeeeee;
 }
+
+.BioSessions {
+    border: rgb(204, 0,0) solid 2px;
+    background: rgb(204, 0, 0);
+    color: white;
+    font-family: "Proxima Nova";
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+
+.BioSessions:hover {
+    background: white !important;
+    color: rgb(204, 0,0) !important;
+}
+
+.BioSessions:visited {
+    background: rgb(204, 0,0);
+    color: white;
+}
+
+.BioSessions:active {
+    color: #515151 !important;
+    border: #515151 solid 2px !important;
+}
+    
+@media (max-width: 740px) {
+    .BioSessions {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+}
+
+@media (max-width: 415px) {
+    .BioSessions {
+        font-size: 12px;
+    }
+}

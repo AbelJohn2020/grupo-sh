@@ -1,13 +1,16 @@
 import React from 'react';
-import { ContactServices } from '../Buttons/Buttons';
+import { Link } from 'react-router-dom';
 import { BoxWelcomeImage, BoxWelcomeMessageStyles, GoToServices, WelcomeMessageStyles } from './WelcomeToGrupoSHStyles';
+import "../UI/styles.css";
 
 function WelcomeGrupoSH() {
     return (
         <div>
             <BoxWelcomeImage>
                 <GoToServices>
-                    <ContactServices name="Sesiones con Biomagnetismo" url="/servicios" />
+                    <Link to="/servicios" className="BioSessions">
+                        Sesiones de Biomagnetismo
+                    </Link>
                 </GoToServices>
             </BoxWelcomeImage>
             <BoxWelcomeMessageStyles>
