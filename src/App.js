@@ -27,14 +27,14 @@ function App() {
           <Route path="/herbalife" component={Products}/>
           <Route path="/contactanos" component={ContactUs}/>
 
-          <Route path="/herbalife/batido-nutricional-fórmula-1" component={FormOne}/>
-          <Route path="/herbalife/té-concentrado-de-hierbas" component={Te}/>
-          <Route path="/herbalife/herbal-aloe-concentrado" component={AloeCon}/>
-          <Route path="/herbalife/proteína" component={Protein}/>
-          <Route path="/herbalife/complementos" component={Complement}/>
-          <Route path="/herbalife/deporte-y-vida-activa" component={Sport}/>
-          <Route path="/herbalife/herbalife-skin" component={Skin}/>
-          <Route path="/herbalife/herbal-aloe" component={Aloe}/>
+          <Route path="/batido-nutricional-fórmula-1" component={FormOne}/>
+          <Route path="/té-concentrado-de-hierbas" component={Te}/>
+          <Route path="/herbal-aloe-concentrado" component={AloeCon}/>
+          <Route path="/proteína" component={Protein}/>
+          <Route path="/complementos" component={Complement}/>
+          <Route path="/deporte-y-vida-activa" component={Sport}/>
+          <Route path="/herbalife-skin" component={Skin}/>
+          <Route path="/herbal-aloe" component={Aloe}/>
         </Switch>
       </Router>
     </div>
