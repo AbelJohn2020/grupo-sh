@@ -3,7 +3,7 @@ import { skin } from '../../data-images/products-images';
 import HerbalifeFooter from '../../HerbalifeFooter/HerbalifeFooter';
 import HerbalifeNavbar from '../../HerbalifeNavbar/HerbalifeNavbar';
 import ProductsInProducts from '../../ProductsInProducts/ProductsInProducts';
-import { HerbalifeProductTitle } from '../../Ttile/Title';
+import { HerbalifeProductsSubtitle } from '../../Ttile/Title';
 import { AllProductsBySector, BackgroundStyles, Body, OneProductOfTheSector } from '../FormOne/FormOneStyles';
 
 const Skin = () => {
@@ -11,7 +11,7 @@ const Skin = () => {
         <Body>
             <HerbalifeNavbar />
             <BackgroundStyles>
-                <HerbalifeProductTitle name="herbalife skin"/>
+                <HerbalifeProductsSubtitle name="herbalife skin"/>
                 <AllProductsBySector>
                     {
                         skin.map( ({id, product, name, code}) => (

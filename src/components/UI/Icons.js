@@ -3,6 +3,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import { ImWhatsapp } from "react-icons/im";
 import { GoLocation } from "react-icons/go";
 import { AiOutlineMail } from "react-icons/ai";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const iconSet = {
   facebook: FaFacebookF,
@@ -12,6 +13,7 @@ const iconSet = {
   whatsApp: ImWhatsapp,
   location: GoLocation,
   mail: AiOutlineMail,
+  navbar: GiHamburgerMenu,
 };
 
 const Icons = ({ type, className }) => {

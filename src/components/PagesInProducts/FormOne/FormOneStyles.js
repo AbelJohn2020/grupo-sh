@@ -8,6 +8,10 @@ export const Body = styled.div`
 export const BackgroundStyles = styled.div`
     padding: 0 10%;
     border-bottom: ${Colors.lightLightGray} solid 2px;
+
+    @media (max-width: 740px){
+        padding: 0 2%;
+    }
 `;
 
 export const AllProductsBySector = styled.div`
@@ -23,4 +27,13 @@ export const OneProductOfTheSector = styled.div`
     height: 170px;
     padding: 0 30px;
     margin: 0 0 12px 0;
+
+    @media (max-width: 740px){
+        height: 136px;
+    }
+
+    @media (max-width: 415px){
+        padding: 0 8px;
+        height: 96px;
+    }
 `;

@@ -9,6 +9,10 @@ export const MainCard = styled.div`
     margin: 0;
     padding: 8px 16px;
     box-sizing: border-box;
+
+    @media (max-width: 740px){
+        padding: 4px;
+    }
 `;
 
 export const CardImage = styled.div`
@@ -42,5 +46,19 @@ export const Button = styled.div`
 
     &:hover {
         background: ${Colors.hoverGreenButton};
+    }
+
+    @media (max-width: 740px){
+        font-family: "Proxima Nova";
+        font-size: 12px;
+        letter-spacing: 0;
+        padding: 3px;
+        border-radius: 6px;
+    }
+
+    @media (max-width: 415px){
+        font-size: 10px;
+        padding: 1px;
+        border-radius: 4px;
     }
 `;

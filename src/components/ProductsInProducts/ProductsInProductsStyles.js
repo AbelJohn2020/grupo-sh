@@ -11,11 +11,23 @@ export const CardProduct = styled.div`
     grid-template-rows: 100%;
     background: ${Colors.white};
     box-shadow: 4px 4px 4px 2px ${Colors.boxShadow};
+
+    @media (max-width: 740px){
+        grid-template-columns: 18% 66% 16%;
+    }
+
+    @media (max-width: 415px){
+        grid-template-columns: 18% 58% 24%;
+    }
 `;
 
 export const ImageProduct = styled.img`
     width: 92%;
     height: 100%;
+
+    @media (max-width: 740px){
+        width: 100%;
+    }
 `;
 
 export const CenterInformation = styled.div`
@@ -25,6 +37,10 @@ export const CenterInformation = styled.div`
     padding: 16px;
     display: flex;
     flex-direction: column;
+
+    @media (max-width: 415px){
+        padding: 4px 8px;
+    }
 `;
 
 export const NameProduct = styled.p`
@@ -36,6 +52,11 @@ export const NameProduct = styled.p`
     font-style: normal;
     color: ${Colors.subtitle};
     padding: 16px 0 4px 0;
+
+    @media (max-width: 415px){
+        padding: 4px 0;
+        font-size: 14px;
+    }
 `;
 
 export const CodeProduct = styled.p`
@@ -47,6 +68,10 @@ export const CodeProduct = styled.p`
     font-style: normal;
     color: ${Colors.code};
     padding: 4px 0;
+
+    @media (max-width: 415px){
+        font-size: 14px;
+    }
 `;
 
 export const Buy = styled.div`
@@ -57,4 +82,12 @@ export const Buy = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: 740px){
+        padding: 16px 8px 16px 0;
+    }
+
+    @media (max-width: 415px){
+        padding: 4px 4px 4px 0;
+    }
 `;

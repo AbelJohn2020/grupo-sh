@@ -1,29 +1,49 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import { NavbarStyles, OptionsStyles } from './NavbarStyles';
+import { DivHamburger, DivOptionsStyles, DivOptionsStylesWithHamburger, NavbarStyles, OptionsStyles } from './NavbarStyles';
 import GeneralLogo from "../../images/logo-sh/generalLogo.jpg"
+import Icons from '../UI/Icons';
 
 const Navbar = () => {
+    const [active, setActive] = useState(false);
+
     return (
         <NavbarStyles>
             <img src={GeneralLogo} alt="GRUPO SH logo" />
-            <OptionsStyles>
-                <Link to="/" className="AboutUs">
-                    inicio
-                </Link>
-                <Link to="/servicios" className="AboutUs">
-                    servicios
-                </Link>
-                <Link to="/herbalife" className="AboutUs">
-                    herbalife
-                </Link>
-                <Link to="/contactanos" className="AboutUs">
-                    contactanos
-                </Link>
-                <Link to="/nosotros" className="AboutUs">
-                    nosotros
-                </Link>
-            </OptionsStyles>
+            <DivOptionsStylesWithHamburger>
+                <DivHamburger onClick={() => setActive(!active)} className={active && "toogle"}>
+                    <Icons type="navbar" className="hamburger" />
+                </DivHamburger>
+                <DivOptionsStyles className={!active && "active"}>
+                    <OptionsStyles>
+                        <li>
+                            <Link to="/" className="AboutUs we" onClick={() => setActive(!active)}>
+                                inicio
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/servicios" className="AboutUs we" onClick={() => setActive(!active)}>
+                                servicios
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/herbalife" className="AboutUs we" onClick={() => setActive(!active)}>
+                                herbalife
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/contactanos" className="AboutUs we" onClick={() => setActive(!active)}>
+                                contactanos
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/nosotros" className="AboutUs we" onClick={() => setActive(!active)}>
+                                nosotros
+                            </Link>
+                        </li>
+                    </OptionsStyles>
+                </DivOptionsStyles>
+            </DivOptionsStylesWithHamburger>
         </NavbarStyles>
     )
 }

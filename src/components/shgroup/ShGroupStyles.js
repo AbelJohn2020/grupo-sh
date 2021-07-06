@@ -12,6 +12,10 @@ export const ShGroupStyles = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.7;
+    
+    @media (max-width: 415px){
+        padding: 0 0 56px 0;
+    }
     `;
     
 export const ClearAbsolute = styled.div`
@@ -25,10 +29,14 @@ export const ClearAbsolute = styled.div`
 `;
 
 export const AboutUsStyles = styled.div`
-    width: 80%;
+    width: 90%;
     display: flex;
     margin: 8px 0 24px 0;
     border-radius: 12px;
+
+    @media (max-width: 415px){
+        flex-direction: column;
+    }
 `;
 
 export const BoxUsStyles = styled.div`
@@ -39,6 +47,13 @@ export const BoxUsStyles = styled.div`
 
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
+
+    @media (max-width: 415px){
+        width: 100%;
+        height: 200px;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 12px;
+    }
 `;
 
 export const DivBoxUsStyles = styled.div`
@@ -63,6 +78,11 @@ export const DivBoxUsStyles = styled.div`
 
     @media (max-width: 740px){
         font-size: 16px;
+    }
+
+    @media (max-width: 415px){
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 12px;
     }
 `;
 
@@ -127,6 +147,13 @@ export const BoxLifeStyles = styled.div`
         opacity: 0.85;
     }
 
+    @media (max-width: 415px){
+        width: 100%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 12px;
+        height: 200px;
+    }
+
     p {
         display: flex;
         justify-content: center;
@@ -148,6 +175,11 @@ export const BoxLifeStyles = styled.div`
         @media (max-width: 740px){
             font-size: 16px;
             padding: 0 24px 0 48px;
+        }
+
+        @media (max-width: 415px){
+            border-top-right-radius: 12px;
+            border-bottom-left-radius: 0;
         }
 
     }
@@ -165,6 +197,13 @@ export const BoxDeliveryStyles = styled.div`
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
 
+    @media (max-width: 415px){
+        width: 100%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 12px;
+        height: 200px;
+    }
+
     p {
         display: flex;
         justify-content: center;
@@ -188,6 +227,13 @@ export const BoxDeliveryStyles = styled.div`
             font-size: 16px;
             padding: 0 24px 0 48px;
         }
+
+        @media (max-width: 415px){
+            border-top-right-radius: 12px;
+            border-bottom-left-radius: 0;
+            padding: 0 24px 0 24px;
+
+        }
     }
 `;
 
@@ -195,7 +241,16 @@ export const InformationStyles = styled.div`
     width: 50%;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
-    `;
+
+    @media (max-width: 415px){
+        width: 100%;
+    }
+
+    @media (max-width: 415px){
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 12px;
+    }
+`;
     
 export const BoxInformationStyles = styled.div`
     width: 100%;
@@ -211,6 +266,11 @@ export const BoxInformationStyles = styled.div`
 
     @media (max-width: 740px){
         padding: 48px 32px;
+    }
+
+    @media (max-width: 415px){
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 12px;
     }
 
     h1 {

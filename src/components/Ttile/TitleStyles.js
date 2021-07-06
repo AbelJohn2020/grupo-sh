@@ -34,12 +34,28 @@ export const AppointmentH2Styles = styled.h2`
     font-style: normal;
     font-size: 30px;
     color: ${Colors.lightLightLightGray};
+
+    @media (max-width: 740px){
+        font-size: 26px;
+    }
+
+    @media (max-width: 415px){
+        font-size: 20px;
+    }
 `;
 
 export const HerbalifeProductsDivStyles = styled.div`
     width: 100%;
     box-sizing: border-box;
     padding: 21px 0 56px 0;
+
+    @media (max-width: 740px){
+        padding: 8px 0 40px 0;
+    }
+
+    @media (max-width: 415px){
+        padding: 4px 0 24px 0; 
+    }
 `;
 
 export const HerbalifeProductsH1Styles = styled.h1`
@@ -54,6 +70,14 @@ export const HerbalifeProductsH1Styles = styled.h1`
     font-style: normal;
     font-size: 36px;
     color: ${Colors.titleHerbalife};
+
+    @media (max-width: 740px){
+        font-size: 30px;
+    }
+
+    @media (max-width: 415px){
+        font-size: 20px;
+    }
 `;
 
 export const HerbalifeProductsH2Styles = styled.h2`
@@ -68,12 +92,21 @@ export const HerbalifeProductsH2Styles = styled.h2`
     font-style: normal;
     font-size: 30px;
     color: ${Colors.subtitle};
+
+    @media (max-width: 740px){
+        font-size: 24px;
+    }
+
+    @media (max-width: 415px){
+        font-size: 18px;
+    }
 `;
 
 export const HerbalifeProductsPStyles = styled.p`
     width: 100%;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     text-align: center;
     font-family: "Proxima Nova";
     font-weight: 500;
@@ -81,6 +114,11 @@ export const HerbalifeProductsPStyles = styled.p`
     font-style: normal;
     font-size: 21px;
     color: ${Colors.subtitle};
+
+    @media (max-width: 415px){
+        font-size: 16px;
+        padding: 0 8px;
+    }
 `;
 
 export const HerbalifeProductTitleStyles = styled.div`
@@ -96,12 +134,18 @@ export const OurJobTitleStyles = styled.div`
     padding: 32px 0 20px 0;
     margin: 0 0 32px 0;
     background: ${Colors.lightGray};
+
+    @media (max-width: 740px){
+        padding: 24px 0 20px 0;
+        margin: 0 0 20px 0;
+    }
 `;
 
 export const OurJobMessageStyles = styled.p`
     width: 100%;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     text-align: center;
     font-family: "Proxima Nova";
     font-weight: 600;
@@ -109,4 +153,13 @@ export const OurJobMessageStyles = styled.p`
     font-style: normal;
     font-size: 32px;
     color: ${Colors.subtitle};
+    
+    @media (max-width: 740px){
+        font-size: 20px;
+        padding: 4px 16px 16px 16px;
+    }
+
+    @media (max-width: 415px){
+        font-size: 16px;
+    }
 `;

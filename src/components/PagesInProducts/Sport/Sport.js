@@ -3,7 +3,7 @@ import { sport } from '../../data-images/products-images';
 import HerbalifeFooter from '../../HerbalifeFooter/HerbalifeFooter';
 import HerbalifeNavbar from '../../HerbalifeNavbar/HerbalifeNavbar';
 import ProductsInProducts from '../../ProductsInProducts/ProductsInProducts';
-import { HerbalifeProductTitle } from '../../Ttile/Title';
+import { HerbalifeProductsSubtitle } from '../../Ttile/Title';
 import { AllProductsBySector, BackgroundStyles, Body, OneProductOfTheSector } from '../FormOne/FormOneStyles';
 
 const Sport = () => {
@@ -11,7 +11,7 @@ const Sport = () => {
         <Body>
             <HerbalifeNavbar />
             <BackgroundStyles>
-                <HerbalifeProductTitle name="deporte y vida activa"/>
+                <HerbalifeProductsSubtitle name="deporte y vida activa"/>
                 <AllProductsBySector>
                     {
                         sport.map( ({id, product, name, code}) => (

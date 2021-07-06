@@ -18,6 +18,16 @@ export const BuyButton = styled.button`
         background: ${Colors.white};
         color: ${Colors.bluetButton}
     }
+
+    @media (max-width: 740px){
+        font-size: 14px;
+        padding: 6px 8px;
+    }
+
+    @media (max-width: 415px){
+        font-size: 10px;
+        padding: 4px 6px;
+    }
 `;
 
 export const BuyLink = styled.a`
@@ -34,6 +44,16 @@ export const BuyLink = styled.a`
     cursor: pointer;
     outline: none;
     text-decoration: none;
+
+    @media (max-width: 740px){
+        font-size: 10px;
+        padding: 4px;
+    }
+
+    @media (max-width: 415px){
+        font-size: 8px;
+        padding: 2px;
+    }
 
     &:hover {
         background: ${Colors.white} !important;
@@ -85,6 +105,10 @@ export const ContactSession = styled.a`
         font-size: 16px;
         padding: 6px 12px;
     }
+
+    @media (max-width: 415px){
+        font-size: 12px;
+    }
 `;
 
 export const SendMyBookMedicalAppointmentStyles = styled.a`
@@ -102,6 +126,10 @@ export const SendMyBookMedicalAppointmentStyles = styled.a`
     cursor: pointer;
     outline: none;
     text-decoration: none;
+
+    @media (max-width: 740px){
+        font-size: 16px;
+    }
 
     &:hover {
         background: ${Colors.white} !important;

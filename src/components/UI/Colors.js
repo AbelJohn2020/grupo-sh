@@ -24,4 +24,5 @@ export const Colors = {
     textTitle: "#333333",
     shadowLetterAboutUs: "rgba(0, 0, 0, 0.84)",
     black: "black",
+    transparent: "transparent",
 };

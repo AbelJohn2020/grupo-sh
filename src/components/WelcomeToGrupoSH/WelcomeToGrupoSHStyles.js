@@ -14,6 +14,10 @@ export const BoxWelcomeImage = styled.div`
     @media (max-width: 740px){
         height: 272px;        
     }
+
+    @media (max-width: 415px){
+        height: 160px;
+    }
 `;
 
 export const WelcomeMessageStyles = styled.p`
@@ -54,5 +58,9 @@ export const GoToServices = styled.div`
 
     @media (max-width: 740px){
         padding: 24px;
+    }
+
+    @media (max-width: 415px){
+        padding: 16px;
     }
 `;

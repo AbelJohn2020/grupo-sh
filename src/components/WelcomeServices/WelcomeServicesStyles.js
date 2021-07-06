@@ -11,6 +11,14 @@ export const CoverWelcome = styled.div`
     background-image: url("${Welcome}");
     background-repeat: no-repeat;
     background-size: cover;
+
+    @media (max-width: 740px){
+        height: 360px;
+    }
+
+    @media (max-width: 415px){
+        height: 240px;
+    }
 `;
 
 export const OpacityCoverWelcome = styled.div`
@@ -31,6 +39,11 @@ export const BoardCoverWelcome = styled.div`
     background: ${Colors.secondBackgrounsWelcomeServices};
     display: flex;
     flex-direction: column;
+
+    @media (max-width: 740px){
+        align-items: center;
+        justify-content: center;
+    }
 `;
 
 export const WelcomeTitleContent = styled.div`
@@ -54,12 +67,28 @@ export const WelcomeTitle = styled.div`
     font-size: 70px;
     display: flex;
     justify-content: center;
+
+    @media (max-width: 740px){
+        font-size: 36px;
+        padding: 0 0 12px 0;
+    }
+
+    @media (max-width: 415px){
+        font-size: 20px;
+    }
 `;
 
 export const ColorTitle = styled.p(
     ({colorLetter}) => css`
         color: ${colorLetter};
         margin: 0 0 0 15px;
+        padding: 0;
+`)
+
+export const ColorLeftTitle = styled.p(
+    ({colorLetter}) => css`
+        color: ${colorLetter};
+        margin: 0;
         padding: 0;
 `)
 
@@ -81,6 +110,15 @@ export const TextTitle = styled.p`
     font-style: normal;
     font-size: 40px;
     color: ${Colors.textTitle};
+
+    @media (max-width: 740px){
+        font-size: 26px;
+    }
+
+    @media (max-width: 415px){
+        font-size: 18px;
+        padding: 2px 0 4px 0;
+    }
 `;
 
 export const WelcomeButton = styled.div`
@@ -89,4 +127,7 @@ export const WelcomeButton = styled.div`
     box-sizing: border-box;
     display: flex;
     justify-content: center;
+
+    @media (max-width: 740px){
+    }
 `;

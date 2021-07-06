@@ -3,7 +3,7 @@ import { aloe } from '../../data-images/products-images';
 import HerbalifeFooter from '../../HerbalifeFooter/HerbalifeFooter';
 import HerbalifeNavbar from '../../HerbalifeNavbar/HerbalifeNavbar';
 import ProductsInProducts from '../../ProductsInProducts/ProductsInProducts';
-import { HerbalifeProductTitle } from '../../Ttile/Title';
+import { HerbalifeProductsSubtitle } from '../../Ttile/Title';
 import { AllProductsBySector, BackgroundStyles, Body, OneProductOfTheSector } from '../FormOne/FormOneStyles';
 
 const Aloe = () => {
@@ -11,7 +11,7 @@ const Aloe = () => {
         <Body>
             <HerbalifeNavbar />
             <BackgroundStyles>
-                <HerbalifeProductTitle name="herbal aloe"/>
+                <HerbalifeProductsSubtitle name="herbal aloe"/>
                 <AllProductsBySector>
                     {
                         aloe.map( ({id, product, name, code}) => (

@@ -3,21 +3,17 @@ import { BuyButton, BuyLink, ContactSession, SendMyBookMedicalAppointmentStyles 
 
 export function BuyButtons({name, buy, setBuy, }) {
     return (
-        <div>
-            <BuyButton onClick={() => setBuy(!buy)}>
-                {name}
-            </BuyButton>
-        </div>
+        <BuyButton onClick={() => setBuy(!buy)}>
+            {name}
+        </BuyButton>
     ); 
 }
 
 export function LinkContact({ url, name }) {
     return (
-        <div>
-            <BuyLink href={url}>
-                {name}
-            </BuyLink>
-        </div>
+        <BuyLink href={url}>
+            {name}
+        </BuyLink>
     ); 
 }
 

@@ -16,6 +16,10 @@ export const OnlyImages = styled.div`
     display: grid;
     grid-template-columns: 33% 34% 33%;
     grid-template-rows: 50% 50%;
+
+    @media (max-width: 415px){
+        padding: 0 20px;
+    }
 `;
 
 export const BoxImage = styled.div`
@@ -26,6 +30,10 @@ export const BoxImage = styled.div`
     box-sizing: border-box;
     border-radius: 8px;
     
+    @media (max-width: 415px){
+        padding: 6px;
+    }
+
     img {
         width: 100%;
         height: 100%;

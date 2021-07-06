@@ -16,13 +16,109 @@ export const NavbarStyles = styled.div`
         @media (max-width: 740px){
             width: 18%;       
         }
+
+        @media (max-width: 415px){
+            width: 40%;      
+        }
     }
 
     @media (max-width: 740px){
         padding: 16px 16px 16px 24px;       
     }
+
+    @media (max-width: 415px){
+        padding: 24px 24px 28px 36px;       
+    }
 `;
 
-export const OptionsStyles = styled.div`
+export const DivOptionsStyles = styled.div`
     display: flex;
+    
+    @media (max-width: 415px){
+        background: ${Colors.backgrounsWelcomeServices};
+        box-shadow: 2px 0 5px 2px ${Colors.gray};
+        width: 100px;
+        position: absolute;
+        top: 0;
+        left: 75%;
+        transition: all 0.5s ease;
+        padding: 0 0 4px 0;
+    }
+`;
+
+export const OptionsStyles = styled.ul`
+    display: flex;
+    list-style-type: none;
+
+    @media (max-width: 415px){
+        width: 100%;
+        box-sizing: border-box;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        
+        li {
+            width: 100%;
+            border-box;
+            display: flex;
+            justify-content: flex-end;
+            margin: 0;
+            padding: 0;
+            cursor: pointer;
+            
+            &:hover {
+                background: ${Colors.gray};
+            }
+
+            .we {
+                color: ${Colors.white};
+                padding: 2px 8px;
+                font-size: 12px;
+                
+                &:hover {
+                    color: ${Colors.white} !important;
+                }
+
+                &:active {
+                    color: ${Colors.white} !important;
+                }
+            }
+        }
+    }
+`;
+
+
+export const DivOptionsStylesWithHamburger = styled.div`
+    @media (max-width: 415px){
+        display: flex;
+        flex-direction: column;
+
+        .active {
+            transform: translate(600px);
+        }
+    }
+
+    .toogle {
+        display: none
+    }
+`;
+
+export const DivHamburger = styled.button`
+    display: none;
+
+    @media (max-width: 415px){
+        display: flex;
+        align-items: center;
+        position: relative;
+        z-index: 10;
+        background: ${Colors.transparent};
+        border: none;
+        outline: none;
+
+        .hamburger {
+            color: ${Colors.textTitle};
+            font-size: 24px;
+            cursor: pointer;
+        }
+    }
 `;

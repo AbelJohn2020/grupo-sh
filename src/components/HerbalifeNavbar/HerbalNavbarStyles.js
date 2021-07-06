@@ -7,9 +7,21 @@ export const HerbalifeNavbarStyle = styled.div`
     padding: 22px 0 22px 20px;
     background: ${Colors.herbalifeNavbar};
 
+    @media (max-width: 740px){
+        padding: 16px;
+    }
+
     img {
         width: 14%;
         height: 100%;
+
+        @media (max-width: 740px){
+            width: 24%;
+        }
+
+        @media (max-width: 415px){
+            width: 36%;
+        }
     }
 `;
 

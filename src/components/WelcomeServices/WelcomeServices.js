@@ -1,16 +1,16 @@
 import React from 'react';
 import { ContactServices } from '../Buttons/Buttons';
 import { Colors } from '../UI/Colors';
-import { BoardCoverWelcome, ColorTitle, ColorTitleRight, CoverWelcome, OpacityCoverWelcome, TextTitle, WelcomeButton, WelcomeTitle, WelcomeTitleContent } from './WelcomeServicesStyles';
+import { BoardCoverWelcome, ColorLeftTitle, ColorTitle, ColorTitleRight, CoverWelcome, OpacityCoverWelcome, TextTitle, WelcomeButton, WelcomeTitle, WelcomeTitleContent } from './WelcomeServicesStyles';
 
-function WelcomeServices(props) {
+function WelcomeServices() {
     return (
         <CoverWelcome>
             <OpacityCoverWelcome>
                 <BoardCoverWelcome>
                     <WelcomeTitleContent>
                         <WelcomeTitle>
-                            <ColorTitle colorLetter={Colors.welcomeTitle}>bienvenidos a</ColorTitle> 
+                            <ColorLeftTitle colorLetter={Colors.welcomeTitle}>bienvenidos a</ColorLeftTitle> 
                             <ColorTitle colorLetter={Colors.redServices}>biomag</ColorTitle>
                             <ColorTitleRight colorLetter={Colors.gray}>s</ColorTitleRight>
                             <ColorTitleRight colorLetter={Colors.subtitle}>h</ColorTitleRight>

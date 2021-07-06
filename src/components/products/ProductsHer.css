@@ -19,3 +19,15 @@
     text-decoration: none;
     outline: none;
 }
+
+@media (max-width: 415px) {
+    .CardsProducts {
+        grid-template-columns: 50% 50%;
+    }
+
+    .CardsProductsHer {
+        margin: 0 0 16px 0;
+        padding: 0;
+        justify-content: flex-start;
+    }
+}

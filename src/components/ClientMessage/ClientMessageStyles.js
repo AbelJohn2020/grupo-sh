@@ -25,6 +25,11 @@ export const TextareaMessage = styled.textarea`
     border: ${Colors.bluetButton} solid 2px;
     border-radius: 4px;
     overflow-y: hidden;
+
+    @media (max-width: 415px){
+        height: 44px;
+        font-size: 12px;
+    }
 `;
 
 export const MaxLengthInMessage = styled.p`
@@ -37,4 +42,12 @@ export const MaxLengthInMessage = styled.p`
     margin: 0 0 4px 0;
     padding: 0;
     color:${Colors.bluetButton};
+
+    @media (max-width: 740px){
+        font-size: 9px;
+    }
+
+    @media (max-width: 415px){
+        font-size: 7px;
+    }
 `;

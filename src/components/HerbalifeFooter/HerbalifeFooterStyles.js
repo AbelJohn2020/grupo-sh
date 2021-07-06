@@ -8,6 +8,10 @@ export const FooterStyles = styled.div`
     justify-content: space-around;
     align-items: flex-start;
     padding: 20px 0 80px 0;
+
+    @media (max-width: 740px){
+        padding: 24px 16px 80px 16px;
+    }
 `;
 
 export const LeftInformation = styled.div`
@@ -17,10 +21,26 @@ export const LeftInformation = styled.div`
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+
+    @media (max-width: 740px){
+        width: 56%;
+    }
+
+    @media (max-width: 415px){
+        width: 64%;
+    }
 `;
 
 export const LogoHerbalife = styled.img`
     width: 24%;
+
+    @media (max-width: 740px){
+        width: 40%;
+    }
+
+    @media (max-width: 415px){
+        width: 60%;
+    }
 `;
 
 export const Information = styled.p`
@@ -31,6 +51,15 @@ export const Information = styled.p`
     text-align: start;
     margin: 0 0 24px 0;
     line-height: 1.4;
+
+    @media (max-width: 740px){
+        font-size: 14px;
+    }
+
+    @media (max-width: 415px){
+        width: 92%;
+        font-size: 8px;
+    }
 `;
 
 export const LogosFooterStyles = styled.div`
@@ -38,6 +67,14 @@ export const LogosFooterStyles = styled.div`
     height: 48px;
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 740px){
+        width: 80%;
+    }
+
+    @media (max-width: 415px){
+        width: 92%;
+    }
 `;
 
 export const SpaceLLogosFooterStyles = styled.div`
@@ -80,12 +117,29 @@ export const RightInformation = styled.div`
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+
+    @media (max-width: 740px){
+        width: 100%;
+    }
+
+    @media (max-width: 415px){
+        padding: 0 0 0 12px;
+    }
 `;
 
 export const ExternRightInformation = styled.div`
     width: 20%;
     display: flex;
     align-items: flex-start;
+
+    @media (max-width: 740px){
+        width: 24%;
+    }
+
+    @media (max-width: 415px){
+        width: 36%;
+        align-items: flex-end;
+    }
 `;
 
 export const H5Styles = styled.h5`
@@ -104,6 +158,14 @@ export const Termino = styled.p`
     text-align: start;
     margin: 0;
     padding: 0;
+
+    @media (max-width: 740px){
+        font-size: 13px;
+    }
+
+    @media (max-width: 415px){
+        font-size: 8px;
+    }
 `;
 
 export const Terminos = styled.div`
@@ -115,6 +177,14 @@ export const Terminos = styled.div`
 export const SocialNetworks = styled.div`
     width: 100%;
     box-sizing: border-box;
+
+    @media (max-width: 415px){
+        width: 67%;
+        display: grid;
+        grid-template-columns: 44% 44%;
+        grid-template-rows: 44% 44%;
+        grid-gap: 8px 8px;
+    }
 `;
 
 export const SocialNetworksLinks = styled.a`
@@ -133,5 +203,10 @@ export const SocialNetworksLinks = styled.a`
 
     &:active {
         color: ${Colors.herbalifeNavbar};
+    }
+
+    @media (max-width: 415px){
+        width: 100%;
+        box-sizing: border-box;
     }
 `;

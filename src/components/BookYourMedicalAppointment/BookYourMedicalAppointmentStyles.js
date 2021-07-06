@@ -11,6 +11,7 @@ export const ContainerAppointment = styled.div`
 export const TextareaAppointmentStyle = styled.textarea`
     width: 40%;
     height: 160px;
+    box-sizing: border-box;
     background: ${Colors.code};
     color: ${Colors.lightLightLightGray};
     font-family: "Proxima Nova";
@@ -23,6 +24,15 @@ export const TextareaAppointmentStyle = styled.textarea`
     padding: 16px;
     &::placeholder {
         color: ${Colors.lightLightLightGray};
+    }
+
+    @media (max-width: 740px){
+        width: 72%;
+    }
+
+    @media (max-width: 415px){
+        width: 92%;
+        font-size: 14px;
     }
 `;
 

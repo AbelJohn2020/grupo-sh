@@ -16,15 +16,31 @@ export const ContainerContact = styled.div`
     background: ${Colors.lightLightLightGray};
     border: ${Colors.lightLightGray} solid 4px;
     margin: 24px 0 0 0;
+
+    @media (max-width: 415px){
+        display: flex;
+        flex-direction: column;
+        padding: 24px 0 82px 0;
+    }
 `;
 
 export const BoxServiceLogo = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
-
+    
+    @media (max-width: 415px){
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+    
     img {
         width: 64%;
+        
+        @media (max-width: 415px){
+            margin: 0 24px 0 0;
+            width: 72%;
+        }
     }
 `;
     
@@ -33,6 +49,13 @@ export const BoxLogos = styled.div`
     flex-direction: column;
     padding: 48px 0 48px 48px;
     background: ${Colors.shadow};
+
+    @media (max-width: 415px){
+        padding: 24px 0 0 24px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: 40px;
+    }
 `;
 
 export const BoxInformationContact = styled.div`
@@ -44,6 +67,10 @@ export const BoxInformationContact = styled.div`
 
     @media (max-width: 740px){
         padding: 48px 32px 48px 40px;
+    }
+
+    @media (max-width: 415px){
+        padding: 24px 24px 0 24px;
     }
 `;
 
@@ -58,7 +85,11 @@ export const LogoSHContact = styled.div`
     color: ${Colors.gray};
     text-shadow: 1px 1px 2px ${Colors.welcomeTitle};
     margin: 0 0 0 4px;
-    `;
+
+    @media (max-width: 415px){
+        font-size: 20px;
+    }
+`;
     
 export const LogoGroupContact = styled.div`
     box-sizing: border-box;
@@ -73,6 +104,10 @@ export const LogoGroupContact = styled.div`
     border: ${Colors.redServices} solid 2px;
     box-shadow: 0 0 8px 2px ${Colors.secondBackgrounsWelcomeServices};
     text-shadow: 1px 1px 3px ${Colors.welcomeTitle};
+
+    @media (max-width: 415px){
+        font-size: 20px;
+    }
 `;
 
 export const LogoPLusContact = styled.div`
@@ -81,12 +116,21 @@ export const LogoPLusContact = styled.div`
     display: flex;
     justify-content: flex-start;
     margin: 0 0 92px 0;
+
+    @media (max-width: 415px){
+        margin: 0 0 10px 0;
+    }
+    
 `;
 
 export const Line = styled.div`
     width: 100%;
     height: 100%;
     background: ${Colors.lightLightGray};
+
+    @media (max-width: 415px){
+        display: none;
+    }
 `;
 
 export const Name = styled.h1`
@@ -113,10 +157,15 @@ export const NumberLocation = styled.h1`
     @media (max-width: 740px){
         font-size: 24px;
     }
+
+    @media (max-width: 415px){
+        margin: 0 0 24px 8px;
+    }
 `;
 
 export const Location = styled.h1`
     text-transform: capitalize;
+    box-sizing: border-box;
     font-family: "Proxima Nova";
     font-size: 32px;
     font-weight: 600;
@@ -125,6 +174,10 @@ export const Location = styled.h1`
 
     @media (max-width: 740px){
         font-size: 24px;
+    }
+
+    @media (max-width: 415px){
+        margin: 0 0 4px 8px;
     }
 `;
 
@@ -155,21 +208,88 @@ export const Mail = styled.h1`
         font-size: 16px;
         padding: 4px 0 0 0;
     }
+
+    @media (max-width: 415px){
+        padding: 8px 0 0 0;
+        margin: 0 0 24px 8px;
+        font-size: 16px;
+    }
 `;
 
 export const IconsPlusInformation = styled.div`
     width: 100%;
     display: grid;
-    grid-template-columns: 7% 93%;
+    grid-template-columns: 10% 90%;
     grid-template-rows: 100%;
 
+    @media (max-width: 415px){
+        grid-template-columns: 12% 88%;
+    }
+
+    .iconLink {
+        background: transparent;
+        padding: 2px 0 0 16px;
+        border: none;
+        border-radius: 100px;
+        cursor: pointer;
+        outline: none;
+        text-decoration: none;
+        
+        &:visited {
+            background: ${Colors.textTitle};
+            color: ${Colors.transparent};
+        }
+
+        @media (max-width: 415px){
+            padding: 2px 0 0 8px;
+        }
+    }
+
+    .iconLinkMail {
+        background: transparent;
+        padding: 2px 0 0 16px;
+        border: none;
+        border-radius: 100px;
+        outline: none;
+        text-decoration: none;
+        cursor: auto;
+        
+        &:visited {
+            background: ${Colors.textTitle};
+            color: ${Colors.transparent};
+        }
+
+        @media (max-width: 415px){
+            padding: 2px 0 0 8px;
+        }
+    }
+
     .iconsContact {
-        padding: 7px 0 0 16px;
         font-size: 26px;
+        padding: 8px;
+
+        &:hover {
+            border-radius: 100px;
+            color: ${Colors.redServices};
+            box-shadow: 1px 1px 4px 1px ${Colors.backgrounsWelcomeServices};
+        }
 
         @media (max-width: 740px){
             padding: 5px 0 0 0;
             font-size: 20px;
         }
     }
+
+    .iconMail {
+        font-size: 26px;
+        padding: 8px;
+
+        @media (max-width: 740px){
+            padding: 5px 0 0 0;
+            font-size: 20px;
+        }
+
+        
+    }
+
 `;

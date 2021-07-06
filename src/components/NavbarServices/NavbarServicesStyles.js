@@ -6,7 +6,21 @@ export const NavbarServicesSH = styled.div`
     box-sizing: border-box;
     background: ${Colors.lightLightLightGray};
     padding: 16px 24px;
+
+    @media (max-width: 415px){
+        padding: 12px 16px;
+    }
+
     img {
         width: 16%;
+        
+        @media (max-width: 740px){
+            width: 24%;
+        }
+
+        @media (max-width: 415px){
+            width: 40%;
+        }
     }
+
 `;
