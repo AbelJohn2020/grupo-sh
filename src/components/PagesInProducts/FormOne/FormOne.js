@@ -5,7 +5,7 @@ import HerbalifeNavbar from '../../HerbalifeNavbar/HerbalifeNavbar';
 import ProductsInProducts from '../../ProductsInProducts/ProductsInProducts';
 import { HerbalifeProductsSubtitle } from '../../Ttile/Title';
 import { AllProductsBySector, BackgroundStyles, Body, OneProductOfTheSector } from './FormOneStyles';
-import "../../UI/styles-css";
+import "../../UI/styles.css";
 
 export const FormOne = () => {
     return (
