@@ -1,5 +1,6 @@
 import React from 'react';
 import { BuyButton, BuyLink, ContactSession, SendMyBookMedicalAppointmentStyles } from './ButtonsStyle';
+import "../UI/styles.css";
 
 export function BuyButtons({name, buy, setBuy, }) {
     return (

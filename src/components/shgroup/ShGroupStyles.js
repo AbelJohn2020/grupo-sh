@@ -2,8 +2,9 @@ import styled from "@emotion/styled";
 import Delivery from '../../images/default-delivery.jpg';
 import Life from '../../images/default-life.jpg';
 import { Colors } from "../UI/Colors";
-import '../UI/styles.css'
-import AboutUsCover from "../../images/logo-sh/vive_emprend.png"
+import '../UI/styles.css';
+import AboutUsCover from "../../images/logo-sh/vive_emprend.png";
+import "../UI/styles.css";
 
 export const ShGroupStyles = styled.div`
     width: 100%;

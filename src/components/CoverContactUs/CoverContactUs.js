@@ -3,6 +3,7 @@ import servicesLogoSH from "../../images/logo-sh/servicesLogo.jpg";
 import { HerbalifeProductsTitle } from '../Ttile/Title';
 import Icons from '../UI/Icons';
 import { BoxInformationContact, BoxLogos, BoxServiceLogo, ContactUsStyles, ContainerContact, IconsPlusInformation, Line, Location, LogoGroupContact, LogoPLusContact, LogoSHContact, Mail, Name, NumberLocation, Reference } from './CoverContactUsStyles';
+import "../UI/styles.css";
 
 function CoverContactUs() {
     return (

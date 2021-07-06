@@ -1,6 +1,7 @@
 import React from 'react';
 import { LinkContact } from '../Buttons/Buttons';
 import { ContainerMessage, MaxLengthInMessage, TextareaMessage } from './ClientMessageStyles';
+import "../UI/styles.css";
 
 const ClientMessage = ({name, code, message, handleChange}) => {
     const urlCode = code.replace(/\s/g, '%20');

@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import { Colors } from "../../UI/Colors";
+import "../../UI/styles.css";
 
 export const Body = styled.div`
     background: ${Colors.lightLightLightGray};  

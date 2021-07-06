@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 import { Colors } from "../UI/Colors";
-import WelcomePicture from "../../images/logo-sh/descarga.jpg"
+import WelcomePicture from "../../images/logo-sh/descarga.jpg";
+import "../UI/styles.css";
 
 export const BoxWelcomeImage = styled.div`
     width: 100%;

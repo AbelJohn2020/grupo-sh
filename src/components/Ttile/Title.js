@@ -12,6 +12,7 @@ import {
      OurJobMessageStyles,
      OurJobTitleStyles
 } from "./TitleStyles";
+import "../UI/styles.css";
 
 export const HerbalifeProductsTitle = ({name}) => {
     return (

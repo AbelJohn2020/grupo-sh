@@ -2,7 +2,7 @@ import React from 'react';
 import ProductsHer from '../products/ProductsHer';
 import { HerbalifeProductsP, HerbalifeProductsSubtitle } from '../Ttile/Title';
 import { ListProductsStyles } from './ProductsComponentStyles';
-
+import "../UI/styles.css";
 
 const ProductsComponent = () => {
     return (

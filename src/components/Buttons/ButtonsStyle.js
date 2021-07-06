@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import { Colors } from "../UI/Colors";
+import "../UI/styles.css";
 
 export const BuyButton = styled.button`
     border: ${Colors.bluetButton} solid 2px;

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { DivHamburger, DivOptionsStyles, DivOptionsStylesWithHamburger, NavbarStyles, OptionsStyles } from './NavbarStyles';
 import GeneralLogo from "../../images/logo-sh/generalLogo.jpg"
 import Icons from '../UI/Icons';
+import "../UI/styles.css";
 
 const Navbar = () => {
     const [active, setActive] = useState(false);

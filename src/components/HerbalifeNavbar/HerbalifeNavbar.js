@@ -1,6 +1,7 @@
 import React from 'react';
 import LogoHerbalife from "../../images/herbalife-products-grupo-sh/logo.png"
 import { ExternalHerbalifeNavbarStyle, HerbalifeNavbarStyle } from './HerbalNavbarStyles';
+import "../UI/styles.css";
 
 const HerbalifeNavbar = () => {
     return (

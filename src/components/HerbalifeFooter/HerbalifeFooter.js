@@ -23,6 +23,7 @@ import {
     Termino, 
     Terminos
 } from './HerbalifeFooterStyles';
+import "../UI/styles.css";
 
 const HerbalifeFooter = () => {
     return (

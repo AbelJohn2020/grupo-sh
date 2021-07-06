@@ -7,6 +7,7 @@ import FiveImage from "../../images/services-grupo-sh/terapia.jpg";
 import SixImage from "../../images/services-grupo-sh/terapia2.jpg";
 import { BoxImage, ContainerImages, OnlyImages } from './OurJobServicesStyles';
 import { OurJobMessage, OurJobTitle } from '../Ttile/Title';
+import "../UI/styles.css";
 
 const ourJob = [
     {id: 0, image: FourImage, alt: "Image person with magnets in the legs"},

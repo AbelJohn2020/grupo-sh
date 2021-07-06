@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { SendMyBookMedicalAppoiment } from '../Buttons/Buttons';
 import { AppoimentTitle } from '../Ttile/Title';
 import { BoxSend, BoxTextarea, ContainerAppointment, TextareaAppointmentStyle } from './BookYourMedicalAppointmentStyles';
+import "../UI/styles.css";
 
 function BookYourMedicalApointment() {
     const [appointment, setAppointment] = useState("");

@@ -1,6 +1,7 @@
 import React from 'react';
 import BiomagSH from "../../images/logo-sh/servicesLogo.jpg";
 import { NavbarServicesSH } from './NavbarServicesStyles';
+import "../UI/styles.css";
 
 function NavbarServices() {
     return (

@@ -1,5 +1,6 @@
 import React from 'react';
 import { AboutUsStyles, BoxDeliveryStyles, BoxInformationStyles, BoxLifeStyles, BoxUsStyles, ClearAbsolute, DivBoxUsStyles, InformationStyles, LogoGroup, LogoPLus, LogoSH, ShGroupStyles } from './ShGroupStyles';
+import "../UI/styles.css";
 
 const ShGroup = () => {
     return (
