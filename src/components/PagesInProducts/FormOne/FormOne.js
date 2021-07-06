@@ -8,6 +8,9 @@ import { AllProductsBySector, BackgroundStyles, Body, OneProductOfTheSector } fr
 import "../../UI/styles.css";
 
 export const FormOne = () => {
+
+
+
     return (
         <Body>
             <HerbalifeNavbar />
@@ -15,11 +18,13 @@ export const FormOne = () => {
                 <HerbalifeProductsSubtitle name="fórmula 1 batido nutricional"/>
                 <AllProductsBySector>
                     {
-                        form.map( ({id, product, name, code}) => (
-                            <OneProductOfTheSector key={id}>
-                                <ProductsInProducts product={product} name={name} code={code} />
-                            </OneProductOfTheSector>
-                        ))
+                        form.map( ({id, product, name, code}) => {
+                            return (
+                                <OneProductOfTheSector key={id}>
+                                    <ProductsInProducts product={product} name={name} code={code} />
+                                </OneProductOfTheSector>
+                            )
+                        })
                     }
                 </AllProductsBySector>
             </BackgroundStyles>

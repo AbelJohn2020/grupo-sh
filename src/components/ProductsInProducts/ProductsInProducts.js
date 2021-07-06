@@ -14,7 +14,6 @@ const ProductsInProducts = ({product, name, code}) => {
     const handleChange = (e) => {
         setMessage(e.target.value);
     }
-
     return (
         <CardProduct>
             <CardImage>
