@@ -12,37 +12,37 @@ import productEight from "../../images/herbalife-products-grupo-sh/hair-and-body
 //////////////////////////////// BATIDO NUTRICIONAL FORMULA UNO /////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 
-import formOne from "../../images/formula-uno-batido-nutricional/0884_formula_1_batido_nutricional_1300x1300.jpg";
-import formTwo from "../../images/formula-uno-batido-nutricional/0143_formula_1_batido_nutricional_1300x1300.jpg";
-import formThree from "../../images/formula-uno-batido-nutricional/0146_formula_1_batido_nutricional_1300x1300.jpg";
-import formFour from "../../images/formula-uno-batido-nutricional/2774_formula_1_batido_nutricional_1300x1300.jpg";
-import formFive from "../../images/formula-uno-batido-nutricional/3116_formula_1_batido_nutricional_1300x1300.jpg";
-import formSix from "../../images/formula-uno-batido-nutricional/0141_formula_1_batido_nutricional_1300x1300.jpg";
-import formSeven from "../../images/formula-uno-batido-nutricional/0142_formula_1_batido_nutricional_1300x1300.jpg";
-import formEight from "../../images/formula-uno-batido-nutricional/1134_formula_1_batido_nutricional_1300x1300.jpg";
-import formNine from "../../images/formula-uno-batido-nutricional/1522_formula_1__batido_nutricional_banana_caramelo_550_g_1522_800x800.jpg";
+import formOne from "../../images/formula-uno-batido-nutricional/form1.jpg";
+import formTwo from "../../images/formula-uno-batido-nutricional/form2.jpg";
+import formThree from "../../images/formula-uno-batido-nutricional/form3.jpg";
+import formFour from "../../images/formula-uno-batido-nutricional/form4.jpg";
+import formFive from "../../images/formula-uno-batido-nutricional/form5.jpg";
+import formSix from "../../images/formula-uno-batido-nutricional/form6.jpg";
+import formSeven from "../../images/formula-uno-batido-nutricional/form7.jpg";
+import formEight from "../../images/formula-uno-batido-nutricional/form8.jpg";
+import formNine from "../../images/formula-uno-batido-nutricional/form9.jpg";
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////// TE CONCENTRADO DE HIERVAS ///////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 
-import teOne from "../../images/te-concentrado-de-hierbas/0106_te_concentrado_de_hierbas_1300x1300.jpg";
-import teTwo from "../../images/te-concentrado-de-hierbas/0190_te_concentrado_de_hierbas_1300x1300.jpg";
-import teThree from "../../images/te-concentrado-de-hierbas/0189_te_concentrado_de_hierbas_1300x1300.jpg";
-import teFour from "../../images/te-concentrado-de-hierbas/0188_te_concentrado_de_hierbas_1300x1300.jpg";
-import teFive from "../../images/te-concentrado-de-hierbas/1638_te_concentrado_de_hierbas_1300x1300.jpg";
-import teSix from "../../images/te-concentrado-de-hierbas/0105_te_concentrado_de_hierbas_1300x1300.jpg";
-import teSeven from "../../images/te-concentrado-de-hierbas/1297_te_concentrado_de_hierbas_1300x1300.jpg";
+import teOne from "../../images/te-concentrado-de-hierbas/te1.jpg";
+import teTwo from "../../images/te-concentrado-de-hierbas/te2.jpg";
+import teThree from "../../images/te-concentrado-de-hierbas/te3.jpg";
+import teFour from "../../images/te-concentrado-de-hierbas/te4.jpg";
+import teFive from "../../images/te-concentrado-de-hierbas/te5.jpg";
+import teSix from "../../images/te-concentrado-de-hierbas/te6.jpg";
+import teSeven from "../../images/te-concentrado-de-hierbas/te7.jpg";
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////// HERBAL ALOE CONCENTRADO ////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 
-import aloeConOne from "../../images/herbal-aloe-concentrado/1065_herbal_aloe_concentrado_1300x1300.jpg";
-import aloeConTwo from "../../images/herbal-aloe-concentrado/2631_herbal_aloe_concentrado_1300x1300.jpg";
-import aloeConThree from "../../images/herbal-aloe-concentrado/0006_herbal_aloe_concentrado_1300x1300.jpg";
-import aloeConFour from "../../images/herbal-aloe-concentrado/1610_herbal_aloe_concentrado_uva_473_ml_1610_800x800.jpg";
+import aloeConOne from "../../images/herbal-aloe-concentrado/aloeCon1.jpg";
+import aloeConTwo from "../../images/herbal-aloe-concentrado/aloeCon2.jpg";
+import aloeConThree from "../../images/herbal-aloe-concentrado/aloeCon3.jpg";
+import aloeConFour from "../../images/herbal-aloe-concentrado/aloeCon4.jpg";
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////// PROTEINA //////////////////////////////////////////////////
@@ -103,14 +103,14 @@ import aloeFive from "../../images/herbal-aloe/2565_herbal_aloe_acondicionador_f
 import aloeSix from "../../images/herbal-aloe/2566_herbal_aloe_jabon_de_tocador_1300x1300.jpg";
 
 export const products = [
-    {id: 0, product: productOne, name: "batido nutricional fórmula 1", link: "/herbalife/batido-nutricional-fórmula-1"},
-    {id: 1, product: productTwo, name: "té concentrado de hierbas", link: "/herbalife/té-concentrado-de-hierbas"},
-    {id: 2, product: productThree, name: "herbal aloe concentrado", link: "/herbalife/herbal-aloe-concentrado"},
+    {id: 0, product: productOne, name: "batido nutricional fórmula 1", link: "/herbalife/batido%20nutricional%20fórmula1"},
+    {id: 1, product: productTwo, name: "té concentrado de hierbas", link: "/herbalife/té%20concentrado%20de%20hierbas"},
+    {id: 2, product: productThree, name: "herbal aloe concentrado", link: "/herbalife/herbal%20aloe%20concentrado"},
     {id: 3, product: productFour, name: "proteína", link: "/herbalife/proteína"},
     {id: 4, product: productFive, name: "complementos", link: "/herbalife/complementos"},
-    {id: 5, product: productSix, name: "deporte y vida activa", link: "/herbalife/deporte-y-vida-activa"},
-    {id: 6, product: productSeven, name: "herbalife skin", link: "/herbalife/herbalife-skin"},
-    {id: 7, product: productEight, name: "herbal aloe", link: "/herbalife/herbal-aloe"},
+    {id: 5, product: productSix, name: "deporte y vida activa", link: "/herbalife/deporte%20y%20vida%20activa"},
+    {id: 6, product: productSeven, name: "herbalife skin", link: "/herbalife/herbalife%20skin"},
+    {id: 7, product: productEight, name: "herbal aloe", link: "/herbalife/herbal%20aloe"},
     // {id: 8, product: productNine, name: ""}, //por verse
 ];
 
