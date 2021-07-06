@@ -9,10 +9,10 @@ export const ListProductsStyles = styled.div`
     border-bottom: ${Colors.lightLightGray} solid 2px;
 
     @media (max-width: 740px){
-        padding: 0 8% 40px 8%;
+        padding: 0 4% 40px 4%;
     }
 
     @media (max-width: 415px){
-        padding: 0 2% 40px 2%;
+        padding: 0 8px 40px 8px;
     }
 `;

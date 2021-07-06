@@ -57,7 +57,7 @@ export const Button = styled.div`
     }
 
     @media (max-width: 415px){
-        font-size: 10px;
+        font-size: 9px;
         padding: 1px;
         border-radius: 4px;
     }

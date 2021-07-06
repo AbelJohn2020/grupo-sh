@@ -103,14 +103,14 @@ import aloeFive from "../../images/herbal-aloe/2565_herbal_aloe_acondicionador_f
 import aloeSix from "../../images/herbal-aloe/2566_herbal_aloe_jabon_de_tocador_1300x1300.jpg";
 
 export const products = [
-    {id: 0, product: productOne, name: "batido nutricional fórmula 1", link: "/batido-nutricional-fórmula-1"},
-    {id: 1, product: productTwo, name: "té concentrado de hierbas", link: "/té-concentrado-de-hierbas"},
-    {id: 2, product: productThree, name: "herbal aloe concentrado", link: "/herbal-aloe-concentrado"},
-    {id: 3, product: productFour, name: "proteína", link: "/proteína"},
-    {id: 4, product: productFive, name: "complementos", link: "/complementos"},
-    {id: 5, product: productSix, name: "deporte y vida activa", link: "/deporte-y-vida-activa"},
-    {id: 6, product: productSeven, name: "herbalife skin", link: "/herbalife-skin"},
-    {id: 7, product: productEight, name: "herbal aloe", link: "/herbal-aloe"},
+    {id: 0, product: productOne, name: "batido nutricional fórmula 1", link: "/herbalife/batido-nutricional-fórmula-1"},
+    {id: 1, product: productTwo, name: "té concentrado de hierbas", link: "/herbalife/té-concentrado-de-hierbas"},
+    {id: 2, product: productThree, name: "herbal aloe concentrado", link: "/herbalife/herbal-aloe-concentrado"},
+    {id: 3, product: productFour, name: "proteína", link: "/herbalife/proteína"},
+    {id: 4, product: productFive, name: "complementos", link: "/herbalife/complementos"},
+    {id: 5, product: productSix, name: "deporte y vida activa", link: "/herbalife/deporte-y-vida-activa"},
+    {id: 6, product: productSeven, name: "herbalife skin", link: "/herbalife/herbalife-skin"},
+    {id: 7, product: productEight, name: "herbal aloe", link: "/herbalife/herbal-aloe"},
     // {id: 8, product: productNine, name: ""}, //por verse
 ];
 

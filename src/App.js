@@ -22,19 +22,19 @@ function App() {
       <Navbar />
         <Switch>
           <Route exact path="/" component={Welcome}/>
-          <Route path="/servicios" component={ServicesSH}/>
-          <Route path="/nosotros" component={AboutUs}/>
-          <Route path="/herbalife" component={Products}/>
-          <Route path="/contactanos" component={ContactUs}/>
+          <Route exact path="/servicios" component={ServicesSH}/>
+          <Route exact path="/nosotros" component={AboutUs}/>
+          <Route exact path="/herbalife" component={Products}/>
+          <Route exact path="/contactanos" component={ContactUs}/>
 
-          <Route path="/batido-nutricional-fórmula-1" component={FormOne}/>
-          <Route path="/té-concentrado-de-hierbas" component={Te}/>
-          <Route path="/herbal-aloe-concentrado" component={AloeCon}/>
-          <Route path="/proteína" component={Protein}/>
-          <Route path="/complementos" component={Complement}/>
-          <Route path="/deporte-y-vida-activa" component={Sport}/>
-          <Route path="/herbalife-skin" component={Skin}/>
-          <Route path="/herbal-aloe" component={Aloe}/>
+          <Route exact path="/herbalife/batido-nutricional-fórmula-1" component={FormOne}/>
+          <Route exact path="/herbalife/té-concentrado-de-hierbas" component={Te}/>
+          <Route exact path="/herbalife/herbal-aloe-concentrado" component={AloeCon}/>
+          <Route exact path="/herbalife/proteína" component={Protein}/>
+          <Route exact path="/herbalife/complementos" component={Complement}/>
+          <Route exact path="/herbalife/deporte-y-vida-activa" component={Sport}/>
+          <Route exact path="/herbalife/herbalife-skin" component={Skin}/>
+          <Route exact path="/herbalife/herbal-aloe" component={Aloe}/>
         </Switch>
       </Router>
     </div>
