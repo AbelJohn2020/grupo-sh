@@ -25,6 +25,11 @@ export const BuyButton = styled.button`
         padding: 6px 8px;
     }
 
+    @media (max-width: 737px){
+        font-size: 12px;
+        padding: 4px 6px;
+    }
+
     @media (max-width: 415px){
         font-size: 10px;
         padding: 4px 6px;

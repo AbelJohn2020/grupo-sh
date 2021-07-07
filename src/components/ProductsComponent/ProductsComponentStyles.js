@@ -12,6 +12,10 @@ export const ListProductsStyles = styled.div`
         padding: 0 4% 40px 4%;
     }
 
+    @media (max-width: 737px){
+        padding: 0 3% 40px 3%;
+    }
+
     @media (max-width: 415px){
         padding: 0 8px 40px 8px;
     }

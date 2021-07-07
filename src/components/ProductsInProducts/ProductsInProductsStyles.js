@@ -87,6 +87,10 @@ export const Buy = styled.div`
         padding: 16px 8px 16px 0;
     }
 
+    @media (max-width: 737px){
+        padding: 2px;
+    }
+
     @media (max-width: 415px){
         padding: 4px 4px 4px 0;
     }

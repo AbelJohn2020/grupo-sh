@@ -56,6 +56,14 @@ export const Button = styled.div`
         border-radius: 6px;
     }
 
+    @media (max-width: 737px){
+        font-family: "Proxima Nova";
+        font-size: 10px;
+        letter-spacing: 0;
+        padding: 2px;
+        border-radius: 6px;
+    }
+
     @media (max-width: 415px){
         font-size: 9px;
         padding: 1px;
