@@ -209,8 +209,13 @@ export const Mail = styled.h1`
         padding: 4px 0 0 0;
     }
 
+    @media (max-width: 641px){
+        font-size: 12px;
+        padding: 4px 0 0 0;
+    }
+
     @media (max-width: 415px){
-        padding: 8px 0 0 0;
+        padding: 0;
         margin: 0 0 24px 8px;
         font-size: 16px;
     }
@@ -221,6 +226,10 @@ export const IconsPlusInformation = styled.div`
     display: grid;
     grid-template-columns: 10% 90%;
     grid-template-rows: 100%;
+
+    @media (max-width: 641px){
+        grid-template-columns: 11% 88%;
+    }
 
     @media (max-width: 415px){
         grid-template-columns: 12% 88%;
@@ -240,8 +249,12 @@ export const IconsPlusInformation = styled.div`
             color: ${Colors.transparent};
         }
 
+        @media (max-width: 641px){
+            padding: 1px 0 0 8px;
+        }
+
         @media (max-width: 415px){
-            padding: 2px 0 0 8px;
+            padding: 0 0 0 8px;
         }
     }
 
@@ -259,8 +272,12 @@ export const IconsPlusInformation = styled.div`
             color: ${Colors.transparent};
         }
 
+        @media (max-width: 641px){
+            padding: 1px 0 0 8px;
+        }
+
         @media (max-width: 415px){
-            padding: 2px 0 0 8px;
+            padding: 0 0 0 8px;
         }
     }
 
@@ -278,6 +295,11 @@ export const IconsPlusInformation = styled.div`
             padding: 5px 0 0 0;
             font-size: 20px;
         }
+
+        @media (max-width: 641px){
+            padding: 2x 0 0 0;
+            font-size: 18px;
+        }
     }
 
     .iconMail {
@@ -287,6 +309,11 @@ export const IconsPlusInformation = styled.div`
         @media (max-width: 768px){
             padding: 5px 0 0 0;
             font-size: 20px;
+        }
+
+        @media (max-width: 641px){
+            padding: 2px 0 0 0;
+            font-size: 18px;
         }
 
         
