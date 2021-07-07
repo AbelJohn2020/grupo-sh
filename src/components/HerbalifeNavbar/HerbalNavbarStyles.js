@@ -8,7 +8,7 @@ export const HerbalifeNavbarStyle = styled.div`
     padding: 22px 0 22px 20px;
     background: ${Colors.herbalifeNavbar};
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         padding: 16px;
     }
 
@@ -16,7 +16,7 @@ export const HerbalifeNavbarStyle = styled.div`
         width: 14%;
         height: 100%;
 
-        @media (max-width: 740px){
+        @media (max-width: 768px){
             width: 24%;
         }
 

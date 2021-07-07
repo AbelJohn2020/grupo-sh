@@ -10,7 +10,7 @@ export const MainCard = styled.div`
     padding: 8px 16px;
     box-sizing: border-box;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         padding: 4px;
     }
 `;
@@ -48,7 +48,7 @@ export const Button = styled.div`
         background: ${Colors.hoverGreenButton};
     }
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         font-family: "Proxima Nova";
         font-size: 12px;
         letter-spacing: 0;

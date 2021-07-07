@@ -35,7 +35,7 @@ export const AppointmentH2Styles = styled.h2`
     font-size: 30px;
     color: ${Colors.lightLightLightGray};
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         font-size: 26px;
     }
 
@@ -49,7 +49,7 @@ export const HerbalifeProductsDivStyles = styled.div`
     box-sizing: border-box;
     padding: 21px 0 56px 0;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         padding: 8px 0 40px 0;
     }
 
@@ -71,7 +71,7 @@ export const HerbalifeProductsH1Styles = styled.h1`
     font-size: 36px;
     color: ${Colors.titleHerbalife};
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         font-size: 30px;
     }
 
@@ -93,7 +93,7 @@ export const HerbalifeProductsH2Styles = styled.h2`
     font-size: 30px;
     color: ${Colors.subtitle};
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         font-size: 24px;
     }
 
@@ -135,7 +135,7 @@ export const OurJobTitleStyles = styled.div`
     margin: 0 0 32px 0;
     background: ${Colors.lightGray};
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         padding: 24px 0 20px 0;
         margin: 0 0 20px 0;
     }
@@ -154,7 +154,7 @@ export const OurJobMessageStyles = styled.p`
     font-size: 32px;
     color: ${Colors.subtitle};
     
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         font-size: 20px;
         padding: 4px 16px 16px 16px;
     }

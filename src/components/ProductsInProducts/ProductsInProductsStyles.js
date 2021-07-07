@@ -12,7 +12,7 @@ export const CardProduct = styled.div`
     background: ${Colors.white};
     box-shadow: 4px 4px 4px 2px ${Colors.boxShadow};
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         grid-template-columns: 18% 66% 16%;
     }
 
@@ -25,7 +25,7 @@ export const ImageProduct = styled.img`
     width: 92%;
     height: 100%;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         width: 100%;
     }
 `;
@@ -83,7 +83,7 @@ export const Buy = styled.div`
     align-items: center;
     justify-content: center;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         padding: 16px 8px 16px 0;
     }
 

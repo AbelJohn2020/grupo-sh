@@ -13,16 +13,16 @@ export const NavbarStyles = styled.div`
     img {
         width: 9%;
 
-        @media (max-width: 740px){
+        @media (max-width: 768px){
             width: 18%;       
         }
 
         @media (max-width: 415px){
-            width: 40%;      
+            width: 50%;      
         }
     }
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         padding: 16px 16px 16px 24px;       
     }
 
@@ -94,7 +94,7 @@ export const DivOptionsStylesWithHamburger = styled.div`
         flex-direction: column;
 
         .active {
-            transform: translate(600px);
+            transform: translate(-60000px);
         }
     }
 

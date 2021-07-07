@@ -12,7 +12,7 @@ export const CoverWelcome = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         height: 360px;
     }
 
@@ -40,7 +40,7 @@ export const BoardCoverWelcome = styled.div`
     display: flex;
     flex-direction: column;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         align-items: center;
         justify-content: center;
     }
@@ -68,7 +68,7 @@ export const WelcomeTitle = styled.div`
     display: flex;
     justify-content: center;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         font-size: 36px;
         padding: 0 0 12px 0;
     }
@@ -111,7 +111,7 @@ export const TextTitle = styled.p`
     font-size: 40px;
     color: ${Colors.textTitle};
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         font-size: 26px;
     }
 
@@ -128,6 +128,6 @@ export const WelcomeButton = styled.div`
     display: flex;
     justify-content: center;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
     }
 `;

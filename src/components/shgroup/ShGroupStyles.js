@@ -77,7 +77,7 @@ export const DivBoxUsStyles = styled.div`
     text-shadow: 4px 2px 8px ${Colors.shadowLetterAboutUs};
     color: white;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         font-size: 16px;
     }
 
@@ -97,7 +97,7 @@ export const LogoSH = styled.div`
     color: ${Colors.gray};
     margin: 0 0 0 8px;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         text-shadow: 1px 2px 4px ${Colors.black};
     }
 `;
@@ -116,7 +116,7 @@ export const LogoGroup = styled.div`
     box-shadow: 0 0 8px 2px ${Colors.secondBackgrounsWelcomeServices};
     text-shadow: 2px 2px 8px ${Colors.black};
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         font-size: 32px;
         text-shadow: 1px 2px 4px ${Colors.black};
         margin: 0 0 8px 0;
@@ -144,7 +144,7 @@ export const BoxLifeStyles = styled.div`
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         opacity: 0.85;
     }
 
@@ -173,7 +173,7 @@ export const BoxLifeStyles = styled.div`
         text-shadow: 4px 2px 8px ${Colors.shadowLetterAboutUs};
         color: white;
 
-        @media (max-width: 740px){
+        @media (max-width: 768px){
             font-size: 16px;
             padding: 0 24px 0 48px;
         }
@@ -224,7 +224,7 @@ export const BoxDeliveryStyles = styled.div`
         color: white;
 
 
-        @media (max-width: 740px){
+        @media (max-width: 768px){
             font-size: 16px;
             padding: 0 24px 0 48px;
         }
@@ -265,7 +265,7 @@ export const BoxInformationStyles = styled.div`
     border-bottom-right-radius: 12px;
     color: ${Colors.white};
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         padding: 48px 32px;
     }
 
@@ -281,7 +281,7 @@ export const BoxInformationStyles = styled.div`
         font-weight: 700;
         margin: 0 0 8px 0;
 
-        @media (max-width: 740px){
+        @media (max-width: 768px){
             font-size: 28px;
         }
     }
@@ -292,7 +292,7 @@ export const BoxInformationStyles = styled.div`
         font-style: normal;
         font-weight: 500;
 
-        @media (max-width: 740px){
+        @media (max-width: 768px){
             font-size: 20px;
         }
     }

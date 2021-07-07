@@ -65,7 +65,7 @@ export const BoxInformationContact = styled.div`
     background: ${Colors.shadow};
     color: ${Colors.textTitle};
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         padding: 48px 32px 48px 40px;
     }
 
@@ -141,7 +141,7 @@ export const Name = styled.h1`
     font-style: normal;
     margin: 0 0 24px 0;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         font-size: 28px;
     }
 `;
@@ -154,7 +154,7 @@ export const NumberLocation = styled.h1`
     font-style: normal;
     margin: 0 0 24px 12px;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         font-size: 24px;
     }
 
@@ -172,7 +172,7 @@ export const Location = styled.h1`
     font-style: normal;
     margin: 0 0 4px 12px;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         font-size: 24px;
     }
 
@@ -190,7 +190,7 @@ export const Reference = styled.h1`
     font-style: normal;
     margin: 0 0 24px 12px;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         font-size: 24px;
     }
 `;
@@ -204,7 +204,7 @@ export const Mail = styled.h1`
     font-style: normal;
     margin: 0 0 24px 12px;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         font-size: 16px;
         padding: 4px 0 0 0;
     }
@@ -274,7 +274,7 @@ export const IconsPlusInformation = styled.div`
             box-shadow: 1px 1px 4px 1px ${Colors.backgrounsWelcomeServices};
         }
 
-        @media (max-width: 740px){
+        @media (max-width: 768px){
             padding: 5px 0 0 0;
             font-size: 20px;
         }
@@ -284,7 +284,7 @@ export const IconsPlusInformation = styled.div`
         font-size: 26px;
         padding: 8px;
 
-        @media (max-width: 740px){
+        @media (max-width: 768px){
             padding: 5px 0 0 0;
             font-size: 20px;
         }

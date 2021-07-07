@@ -26,7 +26,7 @@ export const TextareaAppointmentStyle = styled.textarea`
         color: ${Colors.lightLightLightGray};
     }
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         width: 72%;
     }
 

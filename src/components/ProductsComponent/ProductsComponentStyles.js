@@ -8,7 +8,7 @@ export const ListProductsStyles = styled.div`
     padding: 0 12% 64px 12%;
     border-bottom: ${Colors.lightLightGray} solid 2px;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         padding: 0 4% 40px 4%;
     }
 

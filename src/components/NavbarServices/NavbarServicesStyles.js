@@ -15,7 +15,7 @@ export const NavbarServicesSH = styled.div`
     img {
         width: 16%;
         
-        @media (max-width: 740px){
+        @media (max-width: 768px){
             width: 24%;
         }
 

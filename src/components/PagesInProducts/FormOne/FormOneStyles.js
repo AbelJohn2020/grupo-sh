@@ -10,7 +10,7 @@ export const BackgroundStyles = styled.div`
     padding: 0 10%;
     border-bottom: ${Colors.lightLightGray} solid 2px;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         padding: 0 2%;
     }
 `;
@@ -29,7 +29,7 @@ export const OneProductOfTheSector = styled.div`
     padding: 0 30px;
     margin: 0 0 12px 0;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         height: 136px;
     }
 

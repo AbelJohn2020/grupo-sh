@@ -10,7 +10,7 @@ export const FooterStyles = styled.div`
     align-items: flex-start;
     padding: 20px 0 80px 0;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         padding: 24px 16px 80px 16px;
     }
 `;
@@ -23,7 +23,7 @@ export const LeftInformation = styled.div`
     align-items: flex-start;
     justify-content: center;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         width: 56%;
     }
 
@@ -35,7 +35,7 @@ export const LeftInformation = styled.div`
 export const LogoHerbalife = styled.img`
     width: 24%;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         width: 40%;
     }
 
@@ -53,7 +53,7 @@ export const Information = styled.p`
     margin: 0 0 24px 0;
     line-height: 1.4;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         font-size: 14px;
     }
 
@@ -69,7 +69,7 @@ export const LogosFooterStyles = styled.div`
     display: flex;
     justify-content: space-between;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         width: 80%;
     }
 
@@ -119,7 +119,7 @@ export const RightInformation = styled.div`
     align-items: flex-start;
     justify-content: center;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         width: 100%;
     }
 
@@ -133,7 +133,7 @@ export const ExternRightInformation = styled.div`
     display: flex;
     align-items: flex-start;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         width: 24%;
     }
 
@@ -160,7 +160,7 @@ export const Termino = styled.p`
     margin: 0;
     padding: 0;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         font-size: 13px;
     }
 

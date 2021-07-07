@@ -12,7 +12,7 @@ export const BoxWelcomeImage = styled.div`
     background-image: url("${WelcomePicture}");
     background-size: cover;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         height: 272px;        
     }
 
@@ -33,7 +33,7 @@ export const WelcomeMessageStyles = styled.p`
     font-size: 24px;
     color: ${Colors.subtitle};
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         height: 740px;
         padding: 24px 0 0 0;
     }
@@ -57,7 +57,7 @@ export const GoToServices = styled.div`
     align-items: flex-end;
     justify-content: flex-end;
 
-    @media (max-width: 740px){
+    @media (max-width: 768px){
         padding: 24px;
     }
 
