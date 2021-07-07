@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { DivHamburger, DivOptionsStyles, DivOptionsStylesWithHamburger, NavbarStyles, OptionsStyles } from './NavbarStyles';
 import GeneralLogo from "../../images/logo-sh/generalLogo.jpg"
 import Icons from '../UI/Icons';
@@ -18,29 +18,29 @@ const Navbar = () => {
                 <DivOptionsStyles className={!active && "active"}>
                     <OptionsStyles>
                         <li>
-                            <NavLink exact to="/" className="AboutUs we" onClick={() => setActive(!active)}>
+                            <Link to="/" className="AboutUs we" onClick={() => setActive(!active)}>
                                 inicio
-                            </NavLink>
+                            </Link>
                         </li>
                         <li>
-                            <NavLink exact to="/servicios" className="AboutUs we" onClick={() => setActive(!active)}>
+                            <Link to="/servicios" className="AboutUs we" onClick={() => setActive(!active)}>
                                 servicios
-                            </NavLink>
+                            </Link>
                         </li>
                         <li>
-                            <NavLink exact to="/herbalife" className="AboutUs we" onClick={() => setActive(!active)}>
+                            <Link to="/herbalife" className="AboutUs we" onClick={() => setActive(!active)}>
                                 herbalife
-                            </NavLink>
+                            </Link>
                         </li>
                         <li>
-                            <NavLink exact to="/contactanos" className="AboutUs we" onClick={() => setActive(!active)}>
+                            <Link to="/contactanos" className="AboutUs we" onClick={() => setActive(!active)}>
                                 contactanos
-                            </NavLink>
+                            </Link>
                         </li>
                         <li>
-                            <NavLink exact to="/nosotros" className="AboutUs we" onClick={() => setActive(!active)}>
+                            <Link to="/nosotros" className="AboutUs we" onClick={() => setActive(!active)}>
                                 nosotros
-                            </NavLink>
+                            </Link>
                         </li>
                     </OptionsStyles>
                 </DivOptionsStyles>
