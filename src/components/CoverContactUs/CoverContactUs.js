@@ -4,6 +4,7 @@ import { HerbalifeProductsTitle } from '../Ttile/Title';
 import Icons from '../UI/Icons';
 import { BoxInformationContact, BoxLogos, BoxServiceLogo, ContactUsStyles, ContainerContact, IconsPlusInformation, Line, Location, LogoGroupContact, LogoPLusContact, LogoSHContact, Mail, Name, NumberLocation, Reference } from './CoverContactUsStyles';
 import "../UI/styles.css";
+import { Link } from 'react-router-dom';
 
 function CoverContactUs() {
     return (
@@ -28,9 +29,9 @@ function CoverContactUs() {
                         <NumberLocation>987 518 875</NumberLocation>
                     </IconsPlusInformation>
                     <IconsPlusInformation>
-                        <a href="https://www.google.com/maps/place/SKORPIOS/@-12.2148039,-76.9333639,3a,75y,296.57h,95.55t/data=!3m6!1e1!3m4!1sUygA6lQdvdS7UoLP1GOmMQ!2e0!7i13312!8i6656!4m5!3m4!1s0x9105b9589ab73df3:0x5f1caa04f6696ac7!8m2!3d-12.2145877!4d-76.933382" className="iconLink">
+                        <Link to="https://www.google.com/maps/place/SKORPIOS/@-12.2148039,-76.9333639,3a,75y,296.57h,95.55t/data=!3m6!1e1!3m4!1sUygA6lQdvdS7UoLP1GOmMQ!2e0!7i13312!8i6656!4m5!3m4!1s0x9105b9589ab73df3:0x5f1caa04f6696ac7!8m2!3d-12.2145877!4d-76.933382" className="iconLink">
                             <Icons type="location" className="iconsContact"/>
-                        </a>
+                        </Link>
                         <div>
                             <Location>sector 3 grupo 7 manzana f lote 24</Location>
                             <Reference>(Avenida Bolivar con Avenida Central, a una cuadra de UNTELS)</Reference>
