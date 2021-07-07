@@ -242,10 +242,21 @@ export const IconsPlusInformation = styled.div`
         cursor: pointer;
         outline: none;
         text-decoration: none;
-        
+        color: ${Colors.textTitle} !important;
+        background: ${Colors.transparent};
+
         &:visited {
-            background: ${Colors.textTitle};
-            color: ${Colors.transparent};
+            color: ${Colors.textTitle};
+            background: ${Colors.transparent};
+
+            @media(max-width: 768px) {
+                color: ${Colors.textTitle} !important;
+                background: ${Colors.transparent};
+            }
+        }
+
+        @media (max-width: 768px){
+            padding: 1px 0 0 6px;
         }
 
         @media (max-width: 737px){
@@ -266,8 +277,12 @@ export const IconsPlusInformation = styled.div`
         cursor: auto;
         
         &:visited {
-            background: ${Colors.textTitle};
-            color: ${Colors.transparent};
+            color: ${Colors.textTitle};
+            background: ${Colors.transparent};
+        }
+
+        @media (max-width: 768px){
+            padding: 1px 0 0 6px;
         }
 
         @media (max-width: 737px){
@@ -286,7 +301,12 @@ export const IconsPlusInformation = styled.div`
         &:hover {
             border-radius: 100px;
             color: ${Colors.redServices};
-            box-shadow: 1px 1px 4px 1px ${Colors.backgrounsWelcomeServices};
+            box-shadow: 1px 1px 2px 1px ${Colors.backgrounsWelcomeServices};
+
+            @media (max-width: 768px){
+                padding: 4px;
+                font-size: 18px;
+            }
         }
 
         @media (max-width: 768px){
