@@ -1,11 +1,9 @@
-import React from 'react';
-import { useState } from 'react/cjs/react.development';
+import React, { useState } from 'react';
 import { BuyButtons } from '../Buttons/Buttons';
 import { CardImage } from '../card/CardComponentStyle';
 import ClientMessage from '../ClientMessage/ClientMessage';
 import { Buy, CardProduct, CenterInformation, CodeProduct, ImageProduct, NameProduct } from './ProductsInProductsStyles';
 import "../UI/styles.css";
-// url="https://wa.me/51987518875"
 
 const ProductsInProducts = ({product, name, code}) => {
     const [buy, setBuy] = useState(false);
