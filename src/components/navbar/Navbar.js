@@ -28,8 +28,8 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/herbalife" className="AboutUs we" onClick={() => setActive(!active)}>
-                                herbalife
+                            <Link to="/inkavida" className="AboutUs we" onClick={() => setActive(!active)}>
+                                inkavida
                             </Link>
                         </li>
                         <li>

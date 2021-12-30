@@ -1,17 +1,17 @@
 import React from 'react';
-import HerbalifeFooter from '../components/HerbalifeFooter/HerbalifeFooter';
-import HerbalifeNavbar from '../components/HerbalifeNavbar/HerbalifeNavbar';
+import InkavidaFooter from '../components/InkavidaFooter/InkavidaFooter';
+import InkavidaNavbar from '../components/InkavidaNavbar/InkavidaNavbar';
 import ProductsComponent from '../components/ProductsComponent/ProductsComponent';
-import { HerbalifeProductsTitle } from '../components/Ttile/Title';
+import { ProductsTitle } from '../components/Ttile/Title';
 import "../components/UI/styles.css"
 
 const Products = () => {
     return (
         <div className="coverProducts">
-            <HerbalifeNavbar />
-            <HerbalifeProductsTitle name="productos"/>
+            <InkavidaNavbar />
+            <ProductsTitle name="productos"/>
             <ProductsComponent />
-            <HerbalifeFooter />
+            <InkavidaFooter />
         </div>
     )
 }

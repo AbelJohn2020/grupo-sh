@@ -3,11 +3,10 @@ import { LinkContact } from '../Buttons/Buttons';
 import { ContainerMessage, MaxLengthInMessage, TextareaMessage } from './ClientMessageStyles';
 import "../UI/styles.css";
 
-const ClientMessage = ({name, code, message, handleChange}) => {
-    const urlCode = code.replace(/\s/g, '%20');
+const ClientMessage = ({name, message, handleChange}) => {
     const urlName = name.replace(/\s/g, '%20');
     const urlMessage = message.replace(/\s/g, '%20');
-    const url= `https://wa.me/51987518875?text=${urlName}%2E%20${urlCode}%2E%20${urlMessage}`;
+    const url= `https://wa.me/51987518875?text=Producto%3A%20${urlName}%2E%20${urlMessage}`;
     return (
         <ContainerMessage>
             <MaxLengthInMessage> máximo 200 letras </MaxLengthInMessage>

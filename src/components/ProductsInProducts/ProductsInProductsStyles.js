@@ -1,29 +1,27 @@
+import { css } from "@emotion/react";
 import styled from "@emotion/styled";
 import { Colors } from "../UI/Colors";
 import "../UI/styles.css";
 
-export const CardProduct = styled.div`
+export const CardProduct = styled.div(({buy}) => css`
     width: 100%;
-    height: 100%;
     box-sizing: border-box;
-    display: grid;
-    grid-template-columns: 18% 68% 14%;
-    grid-template-rows: 100%;
-    background: ${Colors.white};
-    box-shadow: 4px 4px 4px 2px ${Colors.boxShadow};
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: ${buy === false ? "8px 0 136px 0" : "8px 0 52px 0"}
+`);
 
-    @media (max-width: 768px){
-        grid-template-columns: 18% 66% 16%;
-    }
-
-    @media (max-width: 415px){
-        grid-template-columns: 18% 58% 24%;
-    }
+export const CardImageProduct = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 `;
 
 export const ImageProduct = styled.img`
-    width: 92%;
-    height: 100%;
+    width: 72%;
 
     @media (max-width: 768px){
         width: 100%;
@@ -31,8 +29,6 @@ export const ImageProduct = styled.img`
 `;
 
 export const CenterInformation = styled.div`
-    width: 100%;
-    height: 100%;
     box-sizing: border-box;
     padding: 16px;
     display: flex;
@@ -47,7 +43,7 @@ export const NameProduct = styled.p`
     width: 100%;
     box-sizing: border-box;
     font-family: "Proxima Nova";
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 600;
     font-style: normal;
     color: ${Colors.subtitle};
@@ -93,5 +89,42 @@ export const Buy = styled.div`
 
     @media (max-width: 415px){
         padding: 4px 4px 4px 0;
+    }
+`;
+
+export const SocialLinks = styled.div`
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 6px 0 0 0;
+`;
+
+export const SocialLink = styled.a`
+    background: ${Colors.socialNetworksBackground};
+    border-radius: 4px;
+    padding: 8px 8px 4px 8px;
+    margin: 0 6px;
+    color: ${Colors.subtitle};
+    outline: none;
+
+    &:visited {
+        color: ${Colors.subtitle};
+    }
+
+    &:active {
+        color: ${Colors.herbalifeNavbar};
+    }
+
+    @media (max-width: 415px){
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    @media (max-width: 415px){
+        width: 67%;
+        display: grid;
+        grid-template-columns: 44% 44%;
+        grid-template-rows: 44% 44%;
+        grid-gap: 8px 8px;
     }
 `;

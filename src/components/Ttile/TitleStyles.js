@@ -2,14 +2,14 @@ import styled from "@emotion/styled";
 import { Colors } from "../UI/Colors";
 import "../UI/styles.css";
 
-export const HerbalifeProductsTitleStyles = styled.div`
+export const ProductsTitleStyles = styled.div`
     width: 100%;
     box-sizing: border-box;
     padding: 32px 0 16px 0;
     background: ${Colors.lightGray};
 `;
 
-export const HerbalifeProductsSubtitleStyles = styled.div`
+export const ProductsSubtitleStyles = styled.div`
     width: 100%;
     box-sizing: border-box;
     padding: 32px 0 16px 0;
@@ -44,7 +44,7 @@ export const AppointmentH2Styles = styled.h2`
     }
 `;
 
-export const HerbalifeProductsDivStyles = styled.div`
+export const ProductsDivStyles = styled.div`
     width: 100%;
     box-sizing: border-box;
     padding: 21px 0 56px 0;
@@ -58,7 +58,7 @@ export const HerbalifeProductsDivStyles = styled.div`
     }
 `;
 
-export const HerbalifeProductsH1Styles = styled.h1`
+export const ProductsH1Styles = styled.h1`
     width: 100%;
     margin: 0;
     padding: 0;
@@ -69,7 +69,7 @@ export const HerbalifeProductsH1Styles = styled.h1`
     letter-spacing: 0;
     font-style: normal;
     font-size: 36px;
-    color: ${Colors.titleHerbalife};
+    color: ${Colors.title};
 
     @media (max-width: 768px){
         font-size: 30px;
@@ -80,7 +80,7 @@ export const HerbalifeProductsH1Styles = styled.h1`
     }
 `;
 
-export const HerbalifeProductsH2Styles = styled.h2`
+export const ProductsH2Styles = styled.h2`
     width: 100%;
     margin: 0;
     padding: 0;
@@ -102,7 +102,7 @@ export const HerbalifeProductsH2Styles = styled.h2`
     }
 `;
 
-export const HerbalifeProductsPStyles = styled.p`
+export const ProductsPStyles = styled.p`
     width: 100%;
     margin: 0;
     padding: 0;
@@ -121,7 +121,7 @@ export const HerbalifeProductsPStyles = styled.p`
     }
 `;
 
-export const HerbalifeProductTitleStyles = styled.div`
+export const ProductTitleStyles = styled.div`
     width: 100%;
     box-sizing: border-box;
     padding: 32px 0 16px 0;

@@ -16,7 +16,7 @@ export const MainCard = styled.div`
 `;
 
 export const CardImage = styled.div`
-    width: 100%;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 `;
@@ -30,16 +30,16 @@ export const Button = styled.div`
     padding: 12px 28px;
     width: 100%;
     box-sizing: border-box;
-    border-radius: 12px;
-    border: ${Colors.greenButton} solid 3px;
+    border-radius: 6px;
+    border: ${Colors.inkavidaNavbar} solid 3px;
     text-transform: uppercase;
     font-family: "Inter";
     font-weight: bold;
     font-style: normal;
     letter-spacing: 0.4px;
     font-size: 16px;
-    background: ${Colors.greenButton};
-    color: ${Colors.white};
+    background: ${Colors.inkavidaNavbar};
+    color: ${Colors.subtitle};
     display: flex;
     align-items: center;
     justify-content: center;

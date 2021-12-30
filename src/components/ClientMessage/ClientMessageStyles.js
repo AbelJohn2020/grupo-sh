@@ -12,7 +12,7 @@ export const ContainerMessage = styled.div`
 `;
 
 export const TextareaMessage = styled.textarea`
-    width: 100%;
+    width: 48%;
     height: 72px;
     resize: none;
     margin: 0 0 8px 0;

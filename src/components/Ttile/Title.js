@@ -2,23 +2,23 @@ import React from 'react';
 import { 
     AppointmentH2Styles,
     AppointmentTitleStyles,
-    HerbalifeProductsDivStyles,
-     HerbalifeProductsH1Styles,
-     HerbalifeProductsH2Styles, 
-     HerbalifeProductsPStyles, 
-     HerbalifeProductsSubtitleStyles, 
-     HerbalifeProductsTitleStyles, 
-     HerbalifeProductTitleStyles,
+    ProductsDivStyles,
+     ProductsH1Styles,
+     ProductsH2Styles, 
+     ProductsPStyles, 
+     ProductsSubtitleStyles, 
+     ProductsTitleStyles, 
+     ProductTitleStyles,
      OurJobMessageStyles,
      OurJobTitleStyles
 } from "./TitleStyles";
 import "../UI/styles.css";
 
-export const HerbalifeProductsTitle = ({name}) => {
+export const ProductsTitle = ({name}) => {
     return (
-        <HerbalifeProductsTitleStyles>
-            <HerbalifeProductsH1Styles>{name}</HerbalifeProductsH1Styles>
-        </HerbalifeProductsTitleStyles>
+        <ProductsTitleStyles>
+            <ProductsH1Styles>{name}</ProductsH1Styles>
+        </ProductsTitleStyles>
     );
 }
 
@@ -30,34 +30,34 @@ export const AppoimentTitle = ({name}) => {
     );
 }
 
-export const HerbalifeProductsSubtitle = ({name}) => {
+export const ProductsSubtitle = ({name}) => {
     return (
-        <HerbalifeProductsSubtitleStyles>
-            <HerbalifeProductsH2Styles>{name}</HerbalifeProductsH2Styles>
-        </HerbalifeProductsSubtitleStyles>
+        <ProductsSubtitleStyles>
+            <ProductsH2Styles>{name}</ProductsH2Styles>
+        </ProductsSubtitleStyles>
     );
 }
 
-export const HerbalifeProductsP = ({name}) => {
+export const ProductsP = ({name}) => {
     return (
-        <HerbalifeProductsDivStyles>
-            <HerbalifeProductsPStyles>{name}</HerbalifeProductsPStyles>
-        </HerbalifeProductsDivStyles>
+        <ProductsDivStyles>
+            <ProductsPStyles>{name}</ProductsPStyles>
+        </ProductsDivStyles>
     );
 }
 
-export const HerbalifeProductTitle = ({name}) => {
+export const ProductTitle = ({name}) => {
     return (
-        <HerbalifeProductTitleStyles>
-            <HerbalifeProductsH1Styles>{name}</HerbalifeProductsH1Styles>
-        </HerbalifeProductTitleStyles>
+        <ProductTitleStyles>
+            <ProductsH1Styles>{name}</ProductsH1Styles>
+        </ProductTitleStyles>
     );
 }
 
 export const OurJobTitle = ({name}) => {
     return (
         <OurJobTitleStyles>
-            <HerbalifeProductsH1Styles>{name}</HerbalifeProductsH1Styles>
+            <ProductsH1Styles>{name}</ProductsH1Styles>
         </OurJobTitleStyles>
     );
 }

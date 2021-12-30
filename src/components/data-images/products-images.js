@@ -1,19 +1,27 @@
-import productOne from "../../images/herbalife-products-grupo-sh/Chocolate-protein-shake.png";
-import productTwo from "../../images/herbalife-products-grupo-sh/herbal-tea-with-fruits.png";
-import productThree from "../../images/herbalife-products-grupo-sh/aloe-vera-drink.png";
-import productFour from "../../images/herbalife-products-grupo-sh/two-glasses-of-protein-shake.png";
-import productFive from "../../images/herbalife-products-grupo-sh/fiber-drink-on-tray.png";
-import productSix from "../../images/herbalife-products-grupo-sh/herbalife-24-rebuild-strenght.png";
-import productSeven from "../../images/herbalife-products-grupo-sh/skincare-products.png";
-import productEight from "../../images/herbalife-products-grupo-sh/hair-and-body-products.png";
+import productOne from "../../images/inkavida/activaink.png";
+import productTwo from "../../images/inkavida/agua-ozonizada.png";
+import productThree from "../../images/inkavida/colageno.png";
+import productFour from "../../images/inkavida/colageno-hidrolizado.png";
+import productFive from "../../images/inkavida/inkamen-pasion.png";
+import productSix from "../../images/inkavida/inkapro.png";
+import productSeven from "../../images/inkavida/moringa.png";
+import productEight from "../../images/inkavida/nutriente-energetico.png";
+import productNine from "../../images/inkavida/super-cafe.png";
+import productTen from "../../images/inkavida/super-te.png";
+import productEleven from "../../images/inkavida/super-te-plus.png";
+import productTwelfth from "../../images/inkavida/vino-inkavida.png";
 
 export const products = [
-    {id: 0, product: productOne, name: "batido nutricional fórmula 1", link: "/herbalife/batidonutricionalfórmula1"},
-    {id: 1, product: productTwo, name: "té concentrado de hierbas", link: "/herbalife/teconcentradodehierbas"},
-    {id: 2, product: productThree, name: "herbal aloe concentrado", link: "/herbalife/herbalaloeconcentrado"},
-    {id: 3, product: productFour, name: "proteína", link: "/herbalife/proteína"},
-    {id: 4, product: productFive, name: "complementos", link: "/herbalife/complementos"},
-    {id: 5, product: productSix, name: "deporte y vida activa", link: "/herbalife/deporteyvidaactiva"},
-    {id: 6, product: productSeven, name: "herbalife skin", link: "/herbalife/herbalifeskin"},
-    {id: 7, product: productEight, name: "herbal aloe", link: "/herbalife/herbalaloe"},
+    {id: 0, product: productOne, name: "activaink", link: "/inkavida/activaink"},
+    {id: 1, product: productTwo, name: "inka yaku", link: "/inkavida/agua-ozonizada"},
+    {id: 2, product: productThree, name: "colageno", link: "/inkavida/colageno"},
+    {id: 3, product: productFour, name: "triple accion", link: "/inkavida/colageno-hidrolizado"},
+    {id: 4, product: productFive, name: "inkamen pasion", link: "/inkavida/inkamen-pasion"},
+    {id: 5, product: productSix, name: "inkapro", link: "/inkavida/inkapro"},
+    {id: 6, product: productSeven, name: "moringa", link: "/inkavida/moringa"},
+    {id: 7, product: productEight, name: "super inka", link: "/inkavida/nutriente-energetico"},
+    {id: 8, product: productNine, name: "super cafe", link: "/inkavida/super-cafe"},
+    {id: 9, product: productTen, name: "super te", link: "/inkavida/super-te"},
+    {id: 10, product: productEleven, name: "super te plus", link: "/inkavida/super-te-plus"},
+    {id: 11, product: productTwelfth, name: "vino inkavida", link: "/inkavida/vino-inkavida"},
 ];
