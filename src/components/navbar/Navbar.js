@@ -15,7 +15,7 @@ const Navbar = () => {
                 <DivHamburger onClick={() => setActive(!active)} className={active && "toogle"}>
                     <Icons type="navbar" className="hamburger" />
                 </DivHamburger>
-                <DivOptionsStyles className={!active && "active"}>
+                <DivOptionsStyles className={active ? "off" : "active"}>
                     <OptionsStyles>
                         <li>
                             <Link to="/" className="AboutUs we" onClick={() => setActive(!active)}>

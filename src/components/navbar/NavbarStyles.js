@@ -39,10 +39,29 @@ export const DivOptionsStyles = styled.div`
         box-shadow: 2px 0 5px 2px ${Colors.gray};
         width: 100px;
         position: absolute;
-        top: 0;
-        left: 75%;
-        transition: all 0.5s ease;
+        top: 56px;
+        left: 69%;
         padding: 0 0 4px 0;
+
+        .active {
+            display: flex;
+        }
+
+        .off {
+            display: none;
+        }
+    }
+
+    @media (max-width: 380px){
+        left: 65%;
+    }
+
+    @media (max-width: 370px){
+        left: 64%;
+    }
+
+    @media (max-width: 330px){
+        left: 60%;
     }
 `;
 
@@ -63,7 +82,7 @@ export const OptionsStyles = styled.ul`
             display: flex;
             justify-content: flex-end;
             margin: 0;
-            padding: 0;
+            padding: 2px 4px;
             cursor: pointer;
             
             &:hover {
@@ -74,10 +93,6 @@ export const OptionsStyles = styled.ul`
                 color: ${Colors.white};
                 padding: 2px 8px;
                 font-size: 12px;
-                
-                &:hover {
-                    color: ${Colors.white} !important;
-                }
 
                 &:active {
                     color: ${Colors.white} !important;
@@ -96,10 +111,6 @@ export const DivOptionsStylesWithHamburger = styled.div`
         .active {
             transform: translate(-60000px);
         }
-    }
-
-    .toogle {
-        display: none
     }
 `;
 

@@ -9,7 +9,11 @@ export const CardProduct = styled.div(({buy}) => css`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: ${buy === false ? "8px 0 136px 0" : "8px 0 52px 0"}
+    padding: ${buy === false ? "8px 0 136px 0" : "8px 0 52px 0"};
+
+    @media (max-width: 420px){
+        padding: ${buy === false ? "8px 0 106.5px 0" : "8px 0 48px 0"};
+    }
 `);
 
 export const CardImageProduct = styled.div`
@@ -116,15 +120,6 @@ export const SocialLink = styled.a`
     }
 
     @media (max-width: 415px){
-        width: 100%;
-        box-sizing: border-box;
-    }
-
-    @media (max-width: 415px){
-        width: 67%;
-        display: grid;
-        grid-template-columns: 44% 44%;
-        grid-template-rows: 44% 44%;
-        grid-gap: 8px 8px;
+        margin: 0 6px 16px 6px;
     }
 `;
