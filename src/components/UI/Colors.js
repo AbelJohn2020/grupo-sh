@@ -4,6 +4,7 @@ export const Colors = {
     inkavidaNavbar: "rgba(120, 200, 100, 0.6)",
     white: "#ffffff",
     subtitle: "#515151",
+    testTitle: "#4f4f4f",
     titleHerbalife: "#4d4d4d",
     sweetLight: "#aaaaaa",
     lightGray: "#d1d1d1",
